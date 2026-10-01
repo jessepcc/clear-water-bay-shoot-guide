@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>香港西贡外拍指南 · 10月3日清水湾</title>
+<meta name="description" content="大坑墩草原 + 清水湾海滩外拍全指南：实地情报、AI概念图、大师拆片、富士XT5参数">
+<style>
+:root{
+  --bg:#faf8f4; --card:#ffffff; --ink:#22252a; --muted:#6b7280;
+  --accent:#c2410c; --accent-soft:#fff3e8; --line:#ece5d8;
+  --sea:#0e7490; --grass:#4d7c0f; --gold:#b45309;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:16px;max-width:560px;margin:0 auto;padding-bottom:96px}
+img{display:block;width:100%;height:auto}
+.hero{position:relative;color:#fff;overflow:hidden}
+.hero img{height:52vh;min-height:340px;object-fit:cover;object-position:center 30%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.72) 100%)}
+.hero-text{position:absolute;left:0;right:0;bottom:0;padding:28px 20px;z-index:2}
+.hero-text .kicker{display:inline-block;font-size:12px;letter-spacing:.2em;background:rgba(255,255,255,.18);backdrop-filter:blur(6px);padding:4px 12px;border-radius:999px;margin-bottom:10px;border:1px solid rgba(255,255,255,.35)}
+.hero-text h1{font-size:26px;line-height:1.35;font-weight:800}
+.hero-text p{font-size:14px;opacity:.92;margin-top:6px}
+.alert{margin:14px 16px;background:#fff7ed;border:1px solid #fed7aa;border-left:5px solid var(--accent);border-radius:12px;padding:12px 14px;font-size:14px}
+.alert b{color:var(--accent)}
+.nav{position:sticky;top:0;z-index:50;background:rgba(250,248,244,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:10px 12px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:0 0 auto;font-size:13px;color:var(--ink);text-decoration:none;background:var(--card);border:1px solid var(--line);padding:7px 14px;border-radius:999px;white-space:nowrap}
+.nav a:active{background:var(--accent-soft)}
+section{padding:26px 16px 6px}
+.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.sec-head .dot{width:10px;height:26px;border-radius:6px;flex:0 0 auto}
+.sec-head h2{font-size:20px;font-weight:800}
+.sec-sub{font-size:13px;color:var(--muted);margin:2px 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card h3{font-size:16px;margin-bottom:6px}
+.card p,.card li{font-size:14px;color:#3a3f46}
+.card ul{padding-left:20px;margin-top:6px}
+.card li{margin-bottom:4px}
+.tag{display:inline-block;font-size:12px;padding:2px 10px;border-radius:999px;margin:0 6px 6px 0;font-weight:600}
+.tag.sea{background:#e0f2fe;color:#075985}
+.tag.grass{background:#ecfccb;color:#3f6212}
+.tag.warn{background:#fef3c7;color:#92400e}
+.tag.cam{background:#ede9fe;color:#5b21b6}
+.tag.ai{background:#f3e8ff;color:#7e22ce}
+.timeline{position:relative;margin:6px 0 0 8px;padding-left:22px;border-left:2px dashed #d6cdb8}
+.tl-item{position:relative;padding:0 0 20px}
+.tl-item::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+.tl-item .time{font-weight:800;font-size:15px}
+.tl-item .what{font-size:14px;color:#3a3f46}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.shot{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:zoom-in}
+.shot img{aspect-ratio:3/4;object-fit:cover}
+.shot .cap{padding:10px 11px}
+.shot .cap b{display:block;font-size:13.5px;line-height:1.45}
+.shot .cap span{font-size:12px;color:var(--muted);display:block;margin-top:3px;line-height:1.5}
+.lens{font-size:11px !important;color:var(--sea) !important;font-weight:700}
+.recipe{background:#1c1917;color:#f5f0e8;border-radius:14px;padding:16px;margin-bottom:14px}
+.recipe h3{font-size:15px;color:#fcd34d;margin-bottom:8px}
+.recipe dl{display:grid;grid-template-columns:auto 1fr;gap:3px 14px;font-size:13.5px}
+.recipe dt{color:#a8a29e;white-space:nowrap}
+.recipe dd{margin:0;font-weight:600}
+.stars{color:#fbbf24;letter-spacing:2px;font-size:13px}
+.concept{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:14px}
+.concept img{aspect-ratio:3/4;object-fit:cover;cursor:zoom-in}
+.concept .cap{padding:14px 15px}
+.concept .cap b{display:block;font-size:15px;margin-bottom:4px}
+.concept .cap p{font-size:13.5px;color:#3a3f46;margin:4px 0}
+.concept .cap .how{background:var(--accent-soft);border-radius:10px;padding:9px 12px;font-size:13px;margin-top:8px}
+.concept .cap .how b{color:var(--accent);font-size:13px;display:inline}
+.break{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px}
+.break h3{font-size:16px}
+.break .jp{font-size:12px;color:var(--muted)}
+.break .work{font-size:13px;color:var(--muted);margin-top:8px;font-style:normal;background:#f8fafc;border-radius:8px;padding:8px 10px}
+.break h4{font-size:13.5px;margin:12px 0 4px;color:var(--accent)}
+.break p,.break li{font-size:13.5px;color:#3a3f46}
+.break ul{padding-left:18px;margin-top:4px}
+.break li{margin-bottom:3px}
+.break .fuji{background:#1c1917;color:#f5f0e8;border-radius:10px;padding:12px 14px;margin-top:10px;font-size:13px;line-height:1.8}
+.break .fuji b{color:#fcd34d}
+.break .copy{margin-top:10px;font-size:13.5px;background:#ecfccb;border-radius:10px;padding:10px 12px}
+.break .copy b{color:#3f6212}
+a.btn{display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:#fff;background:var(--sea);text-decoration:none;padding:8px 18px;border-radius:999px}
+a.btn:active{opacity:.85}
+.tips li{font-size:14px;margin-bottom:10px;list-style:none;position:relative;padding-left:26px;color:#3a3f46}
+.tips li::before{content:attr(data-n);position:absolute;left:0;top:2px;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.tips{padding:0}
+.credits{font-size:12px;color:var(--muted)}
+.credits a{color:var(--sea)}
+footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)}
+#lb{position:fixed;inset:0;background:rgba(10,8,6,.94);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:18px}
+#lb.open{display:flex}
+#lb img{max-width:100%;max-height:78vh;object-fit:contain;border-radius:10px}
+#lb .lb-cap{color:#fff;font-size:14px;margin-top:12px;text-align:center;max-width:92vw}
+#lb .lb-x{position:absolute;top:14px;right:16px;color:#fff;font-size:15px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 16px;cursor:pointer}
+.hint{text-align:center;font-size:12px;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="images/concept-grassland-golden.jpg" alt="大坑墩草原逆光">
+  <div class="hero-text">
+    <span class="kicker">10月3日 · 星期六</span>
+    <h1>香港西贡外拍全指南</h1>
+    <p>大坑墩草原 × 清水湾海滩 · 实地情报 · AI概念图 · 大师拆片 · 富士XT5参数</p>
+  </div>
+</div>
+
+<div class="alert">⚠️ <b>天气提醒：</b>10月3日香港多云有阵雨可能，27–28°C、湿度大。阴天是天然柔光箱——别慌，拍出来皮肤反而更通透。备好拉链袋防潮、超细纤维布擦镜头。</div>
+
+<nav class="nav">
+  <a href="#plan">🕘 行程</a><a href="#intel">📍 实地情报</a><a href="#concepts">🎨 AI概念图</a><a href="#poses">🤸 摆拍参考</a><a href="#camera">📷 相机设置</a><a href="#masters">🎞️ 大师拆片</a><a href="#tips">💡 新手建议</a>
+</nav>
+
+<section id="plan">
+  <div class="sec-head"><span class="dot" style="background:var(--accent)"></span><h2>今日行程</h2></div>
+  <p class="sec-sub">周六 + 黄金周，人多。按这个顺序走，光线和人流都最友好。</p>
+  <div class="timeline">
+    <div class="tl-item"><div class="time">09:00 – 11:30 · 清水湾海滩</div><div class="what">趁人少先拍海滩。用更衣室换第一套衣服。先拍<b>一滩</b>（人少、礁石有质感），再沿步道15分钟走到<b>二滩</b>（沙细、热带感）。</div></div>
+    <div class="tl-item"><div class="time">11:30 – 15:30 · 休息避光</div><div class="what">正午顶光最难看。吃饭、回看照片、和模特一起过一遍下午的参考图。</div></div>
+    <div class="tl-item"><div class="time">15:30 – 16:00 · 前往大坑墩</div><div class="what">在大坳门下车，沿清水湾道上斜步行约15–20分钟进风筝场。现场无更衣室，提前换好第二套。</div></div>
+    <div class="tl-item"><div class="time">16:00 – 18:10 · 大坑墩黄金时刻</div><div class="what">顺光/侧逆光拍草原人像，18:10左右日落收工。逆光发丝光是这里的招牌。</div></div>
+  </div>
+</section>
+
+<section id="intel">
+  <div class="sec-head"><span class="dot" style="background:var(--sea)"></span><h2>实地情报</h2></div>
+  <p class="sec-sub">查过资料、核对过设施——到现场不会踩坑的那种。</p>
+
+  <div class="card">
+    <span class="tag grass">大坑墩风筝场</span><span class="tag warn">无更衣室</span><span class="tag warn">无遮阴</span>
+    <h3>🌾 大坑墩（清水湾郊野公园内）</h3>
+    <ul>
+      <li><b>长什么样：</b>一片开阔的<b>绿色草坡</b> + 几棵标志性大树，远处能望到海。注意：<b>10月初芒草季还没到</b>（芒草11–12月才盛），别期待芒草海，绿草坡 + 逆光一样出片。</li>
+      <li><b>怎么去：</b>九巴91 / 小巴16、103、103M 在「大坳门」下车，沿清水湾道上斜步行约15–20分钟。</li>
+      <li><b>设施：</b>有烧烤场和小食亭；<b>没有更衣室</b>，第二套衣服提前换好或车上换。</li>
+      <li><b>拍什么：</b>① 逆光发丝（16:30后，太阳低了才有）；② 蹲低用75mm把人从草坡里"拔"出来，前景留虚化的草做框；③ 大树下拍滨田英明式仰拍；④ 23mm拍大环境，人在草坡上只占一小块。</li>
+      <li><b>注意：</b>周六放风筝、野餐的人多，取景避开人群或用大虚化藏掉；草坡无遮阴，防晒做足。</li>
+    </ul>
+    <p style="margin-top:8px"><a class="btn" href="https://hk.ulifestyle.com.hk/activity/detail/20098782/港版阿勒泰-隱世大草原-塔門島草原-大帽山草原-雞公嶺-馬鞍山昂坪草原-芒草季節-清水灣-大坑墩風箏場-親子活動">看大坑墩实拍介绍 →</a></p>
+  </div>
+
+  <div class="card">
+    <span class="tag sea">一滩 · 人少礁石</span>
+    <h3>🌊 清水湾第一湾（一滩 / 细清水）</h3>
+    <ul>
+      <li><b>长什么样：</b>比二滩小、安静，滩边混着<b>大礁石和石滩</b>——岩石质感人像首选。</li>
+      <li><b>设施（已核对）：</b>停车位、<b>小食亭</b>、烧烤场、更衣室、淋浴、洗手间、浮台。自带水和零食更稳。</li>
+      <li><b>水质：</b>环保署2025年评级为「一般」，下水玩玩可以，拍完记得冲洗。</li>
+      <li><b>拍什么：</b>礁石区坐拍 / 站拍（参考AI概念图③）；早上9点人最少，背景最干净。</li>
+    </ul>
+    <p style="margin-top:8px"><a class="btn" href="https://zh.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E7%81%A3%E7%AC%AC%E4%B8%80%E7%81%A3">看一滩资料 →</a></p>
+  </div>
+
+  <div class="card">
+    <span class="tag sea">二滩 · 沙细热带</span>
+    <h3>🌊 清水湾第二湾（二滩 / 大清水）</h3>
+    <ul>
+      <li><b>长什么样：</b>沙滩最大、沙最细，背后是<b>整片绿山</b>——经典"热带天堂"构图，右侧滩头有石滩。</li>
+      <li><b>设施：</b>小食亭、更衣室等齐全，人流也是三个点里最多的。</li>
+      <li><b>水质：</b>环保署2025年评级为「良好」。</li>
+      <li><b>拍什么：</b>23mm大场景（人+沙滩+绿山）；白裙踏浪；人多时用75mm长焦虚化掉背景人群。</li>
+    </ul>
+  </div>
+  <p class="hint">两滩之间有岩石岬角 + 约15分钟步道相连，约100级台阶，轻装上阵。</p>
+</section>
+
+<section id="concepts">
+  <div class="sec-head"><span class="dot" style="background:#7e22ce"></span><h2>AI 概念图</h2></div>
+  <p class="sec-sub">按三个实地的真实样貌生成的目标图——"到了现场，就照着这个感觉拍"。点图可放大给模特看。</p>
+
+  <div class="concept">
+    <span class="tag ai">AI概念图</span> <span class="tag grass">大坑墩 · 黄金时刻</span>
+    <img loading="lazy" src="images/concept-grassland-golden.jpg" alt="大坑墩草原逆光概念图" data-cap="概念图① 大坑墩逆光 · 白裙站在草坡上，头发被风吹起，发丝透光，不看镜头">
+    <div class="cap"><b>① 草坡逆光剪影</b><p>16:30后太阳压低，让模特站在草坡上沿，背对/侧对太阳。风会替你做造型——等一阵风来再按快门。</p><div class="how"><b>拍法：</b>75mm f/1.2，点测脸部 +0.5EV，Astia。注意10月初是绿草坡，不是芒草海。</div></div>
+  </div>
+
+  <div class="concept">
+    <span class="tag ai">AI概念图</span> <span class="tag grass">大坑墩 · 巨树下</span>
+    <img loading="lazy" src="images/concept-grassland-lowangle.jpg" alt="大坑墩草丛低角度概念图" data-cap="概念图② 巨树/草丛低角度 · 蹲低仰拍，前景草虚化成框，模特回头">
+    <div class="cap"><b>② 草丛低角度回头</b><p>滨田英明式机位：你蹲到草里仰拍，前景的草虚化成天然画框。模特戴草帽、回头——新手最不尴尬的pose。</p><div class="how"><b>拍法：</b>75mm f/1.4，你蹲低 / 趴低。让模特先看远方，你喊"回头"再连拍。</div></div>
+  </div>
+
+  <div class="concept">
+    <span class="tag ai">AI概念图</span> <span class="tag grass">大坑墩 · 大环境</span>
+    <img loading="lazy" src="images/concept-grassland-wide.jpg" alt="大坑墩草原大环境概念图" data-cap="概念图③ 大环境 · 23mm广角，人在草坡上只占一小块，天空和草原讲故事">
+    <div class="cap"><b>③ 草原大环境</b><p>换上23mm，人只占画面一小块——"地方感"拉满。这种图和特写拼在一起，组图才有呼吸感（川内伦子式思路）。</p><div class="how"><b>拍法：</b>23mm f/4–f/5.6，把人放在三分线上。云多的时候天空最有戏。</div></div>
+  </div>
+
+  <div class="concept">
+    <span class="tag ai">AI概念图</span> <span class="tag sea">一滩 · 礁石区</span>
+    <img loading="lazy" src="images/concept-beach1-rocks.jpg" alt="一滩礁石概念图" data-cap="概念图④ 一滩礁石 · 坐在礁石上看海，阴天柔光，情绪感">
+    <div class="cap"><b>④ 礁石静坐</b><p>一滩礁石区的标准答案：白裙坐礁石上，不看镜头。阴天来拍反而更好——云是天然柔光箱，岩石质感更沉。</p><div class="how"><b>拍法：</b>75mm f/2，Pro Neg Std（阴天）/ Astia（晴天）。注意脚下湿滑，别让模特站太边缘。</div></div>
+  </div>
+
+  <div class="concept">
+    <span class="tag ai">AI概念图</span> <span class="tag sea">二滩 · 热带沙滩</span>
+    <img loading="lazy" src="images/concept-beach2-tropical.jpg" alt="二滩热带沙滩概念图" data-cap="概念图⑤ 二滩踏浪 · 白裙走在浪线上，背后绿山，风是免费造型师">
+    <div class="cap"><b>⑤ 踏浪行走</b><p>二滩招牌：细沙 + 绿山 + 白裙。让模特沿着浪线走，你横向跟拍连拍——走起来的裙摆比任何摆拍都自然。</p><div class="how"><b>拍法：</b>23mm f/4 大场景；想虚化掉人群换75mm。白沙会骗测光，+0.7EV起步。</div></div>
+  </div>
+
+  <div class="concept">
+    <span class="tag ai">AI概念图</span> <span class="tag sea">海滩 · 逆光特写</span>
+    <img loading="lazy" src="images/concept-backlit-hair.jpg" alt="海滩逆光发丝特写概念图" data-cap="概念图⑥ 逆光发丝 · 太阳在模特脑后，发丝透光成金边，脸在柔和阴影里">
+    <div class="cap"><b>⑥ 逆光发丝特写</b><p>把太阳藏在模特脑后，发丝会透出光边。这是滨田英明最爱的光线语言——脸不需要亮，轮廓亮就够了。</p><div class="how"><b>拍法：</b>75mm f/1.2，点测脸部 +0.3EV（脸允许稍暗）。傍晚或清晨才有这个角度。</div></div>
+  </div>
+  <p class="hint">👆 点任意图片可全屏放大，直接举给模特看</p>
+</section>
+
+<section id="poses">
+  <div class="sec-head"><span class="dot" style="background:var(--sea)"></span><h2>摆拍参考</h2></div>
+  <p class="sec-sub">通用 pose 库。上面概念图是"在哪拍"，这里是"怎么摆"。</p>
+  <div class="gallery">
+    <div class="shot" data-cap="逆光特写 · 白色蕾丝罩衫，墨镜推到头顶，低头回眸，发丝透光"><img loading="lazy" src="images/pexels-6213435.jpg" alt="逆光特写"><div class="cap"><b>逆光特写</b><span>低头回眸，发丝透光，新手友好</span><span class="lens">📷 75mm f/1.2</span></div></div>
+    <div class="shot" data-cap="水边蹲姿 · 白裙蹲在浪线上，手搭膝盖，视线看向侧面——阴天备案首选"><img loading="lazy" src="images/pexels-26791961.jpg" alt="水边蹲姿"><div class="cap"><b>水边蹲姿</b><span>阴天柔光拍，慵懒不看镜头</span><span class="lens">📷 75mm f/1.2</span></div></div>
+    <div class="shot" data-cap="白裙回眸 · 站在水边，裙摆被风吹起，转身回头笑"><img loading="lazy" src="images/pexels-9783392.jpg" alt="白裙回眸"><div class="cap"><b>白裙回眸</b><span>全身+环境，风是免费造型师</span><span class="lens">📷 23mm f/2.8</span></div></div>
+    <div class="shot" data-cap="踏浪行走 · 白裙赤脚走在浪花里，视线看向远方，抓拍走动瞬间"><img loading="lazy" src="images/pexels-8908884.jpg" alt="踏浪行走"><div class="cap"><b>踏浪行走</b><span>走起来连拍，自然不僵硬</span><span class="lens">📷 23mm / 75mm</span></div></div>
+    <div class="shot" data-cap="提裙戏水 · 双手轻轻提起裙摆站在浅浪里，回头看镜头"><img loading="lazy" src="images/pexels-8908808.jpg" alt="提裙戏水"><div class="cap"><b>提裙戏水</b><span>手里有动作，表情放松</span><span class="lens">📷 75mm f/1.4</span></div></div>
+    <div class="shot" data-cap="岩石海岸 · 站在礁石上，白裙+手扶头，回头看镜头——适合一滩岩石区"><img loading="lazy" src="images/pexels-30251625.jpg" alt="岩石海岸"><div class="cap"><b>岩石海岸</b><span>一滩礁石区专用机位</span><span class="lens">📷 75mm f/2</span></div></div>
+    <div class="shot" data-cap="极简水中站立 · 白色蕾丝裙站在浅水里直视镜头，大面积留白"><img loading="lazy" src="images/pexels-6028153.jpg" alt="极简站立"><div class="cap"><b>极简站立</b><span>直视镜头，气场全开，留白构图</span><span class="lens">📷 23mm f/4</span></div></div>
+    <div class="shot" data-cap="花束海滩 · 手捧花束走在湿沙上，裙摆飞扬，阴天也出片"><img loading="lazy" src="images/pexels-2697218.jpg" alt="花束海滩"><div class="cap"><b>花束海滩</b><span>道具加分，阴天备案</span><span class="lens">📷 23mm f/2.8</span></div></div>
+  </div>
+  <p class="hint">草原 pose 直接看 AI 概念图 ①②③，比通用图库更对版</p>
+</section>
+
+<section id="camera">
+  <div class="sec-head"><span class="dot" style="background:var(--gold)"></span><h2>富士 X-T5 设置</h2></div>
+  <p class="sec-sub">先设好这组通用设置，再按场景套胶片配方。</p>
+  <div class="card">
+    <span class="tag cam">通用设置</span>
+    <ul>
+      <li>画质：<b>RAW + JPEG Fine</b>（胶片模拟直出，RAW 兜底）</li>
+      <li>对焦：<b>AF-C + 广域/跟踪 + 人眼识别开</b></li>
+      <li>ISO：自动，基准125，上限3200，最低快门 <b>1/250s</b>（75mm 防抖）</li>
+      <li>测光：多重测光；逆光时改点测光对脸，+0.3～+0.7 EV</li>
+      <li>白平衡：自动；想稳定偏暖可锁 5600K</li>
+    </ul>
+  </div>
+  <div class="recipe">
+    <h3>🌾 草原黄金时刻 · 逆光 <span class="stars">★★★★★</span></h3>
+    <dl><dt>镜头</dt><dd>75mm，f/1.2–f/2，快门 ≥1/500s（风吹裙摆）</dd><dt>胶片模拟</dt><dd>Astia（柔和，肤色讨喜）或 Classic Chrome（电影感）</dd><dt>配方</dt><dd>高光 −1 / 阴影 +1 / 色彩 +1 / 颗粒弱 / DR200</dd><dt>曝光</dt><dd>点测脸部 +0.3～+0.7EV，背景允许轻微过曝出光晕</dd></dl>
+  </div>
+  <div class="recipe">
+    <h3>🌾 草原大环境 <span class="stars">★★★★☆</span></h3>
+    <dl><dt>镜头</dt><dd>23mm，f/2.8–f/4（保留草原的"地方感"）</dd><dt>胶片模拟</dt><dd>Astia / Nostalgic Neg（暖黄怀旧）</dd><dt>配方</dt><dd>高光 −1 / 阴影 0 / 色彩 +1 / 白平衡 5600K</dd></dl>
+  </div>
+  <div class="recipe">
+    <h3>🌊 海滩上午 <span class="stars">★★★★☆</span></h3>
+    <dl><dt>镜头</dt><dd>23mm f/5.6–f/8（大场景、海天山都清晰）；特写换75mm</dd><dt>胶片模拟</dt><dd>风景用 Velvia（海水超蓝）；有人时用 Astia（肤色优先）</dd><dt>曝光</dt><dd>白沙会骗测光：多重测光 +0.7～+1.0EV，或点测脸部</dd><dt>配方</dt><dd>DR400（高光救星）/ 高光 −2</dd></dl>
+  </div>
+  <div class="recipe">
+    <h3>☁️ 阴天 / 阵雨备案 <span class="stars">★★★★☆</span></h3>
+    <dl><dt>镜头</dt><dd>75mm 全开 f/1.2——阴天是它最强的主场</dd><dt>胶片模拟</dt><dd>Pro Neg Std（色彩克制、高级灰）</dd><dt>注意</dt><dd>拉链袋+干布；参考"水边蹲姿""花束海滩"两张 pose</dd></dl>
+  </div>
+</section>
+
+<section id="masters">
+  <div class="sec-head"><span class="dot" style="background:var(--accent)"></span><h2>日本大师拆片</h2></div>
+  <p class="sec-sub">每人拆一张真作：光线、构图、色彩怎么来的，富士参数怎么配，清水湾哪能复刻。原作有版权，点链接去官方渠道看图。</p>
+
+  <div class="break">
+    <h3>濱田英明 <span class="jp">Hideaki Hamada · 1977–</span></h3>
+    <div class="work">拆的这张：两个孩子坐在大树上，仰拍，阳光透过树叶洒成光斑，孩子望向远方不看镜头（Lomography 专访配图，Pentax 67II 胶片拍摄）。</div>
+    <h4>🔍 拆解</h4>
+    <ul>
+      <li><b>光线：</b>午后树荫下的斑驳逆光/顶光，背景树叶过曝成圆形光斑，人物脸在柔和阴影里。</li>
+      <li><b>构图：</b>低角度仰拍，粗树干当前景框住人物；人物不看镜头，"被观察的生活感"。</li>
+      <li><b>色彩：</b>暖黄绿胶片调，低对比，暗部不死黑——典型的 Portra 式温柔。</li>
+    </ul>
+    <div class="fuji"><b>富士配方 · 滨田式逆光</b><br>胶片模拟 Astia｜白平衡 5600K，R+2 / B−2（偏暖）<br>高光 −1｜阴影 +1｜色彩 +1｜颗粒 弱｜DR200<br>曝光 +0.7EV（让背景"烧"出光斑）｜75mm f/1.2 全开</div>
+    <div class="copy"><b>📍 清水湾复刻：</b>大坑墩巨树下。你蹲低/趴低仰拍，让模特坐草坡上或靠树干，先看远方再随意转头——连拍抓"没在摆"的瞬间。</div>
+    <p><a class="btn" href="https://www.lomography.com/magazine/207800-portraiture-and-more-japanese-film-photographer-hideaki-hamada">看原作（Lomography 专访）→</a></p>
+  </div>
+
+  <div class="break">
+    <h3>篠山紀信 <span class="jp">Kishin Shinoyama · 1940–2024</span></h3>
+    <div class="work">拆的这张：《Double Fantasy》专辑封面——1980年中央公园，列侬与洋子接吻。户外自然光，黑白，高反差，颗粒粗粝，情绪压过一切技术。</div>
+    <h4>🔍 拆解</h4>
+    <ul>
+      <li><b>光线：</b>户外自然光（阴天般的柔和），面部受光均匀，没有戏剧性布光——情绪全靠瞬间。</li>
+      <li><b>构图：</b>贴得很近，头肩裁切，亲密感拉满；不追求"美"，追求"真"。</li>
+      <li><b>影调：</b>黑白，深黑、高反差、明显颗粒——"激写 Gekisha"式的直接有力。</li>
+    </ul>
+    <div class="fuji"><b>富士配方 · 筱山式黑白</b><br>胶片模拟 ACROS（+R 滤镜，皮肤更通透）<br>高光 +2｜阴影 +2｜颗粒 强｜锐度 +1<br>曝光 0EV（相信机测光）｜75mm f/2，连拍抓瞬间</div>
+    <div class="copy"><b>📍 清水湾复刻：</b>海滩上别只摆拍——让模特闭眼、笑、被风吹乱头发，你用ACROS连拍。情绪真实的一张，胜过十张完美摆拍。</div>
+    <p><a class="btn" href="https://petapixel.com/2024/01/05/photographer-who-took-one-of-the-last-shots-of-john-and-yoko-dies/">看原作（PetaPixel 纪念文）→</a></p>
+  </div>
+
+  <div class="break">
+    <h3>川内倫子 <span class="jp">Rinko Kawauchi · 1972–</span></h3>
+    <div class="work">拆的这张：《Illuminance》系列中的玫瑰——直闪 + 大幅过曝，花"烧"成一团发光的白，背景沉进深品红，梦幻得不真实。</div>
+    <h4>🔍 拆解</h4>
+    <ul>
+      <li><b>光线：</b>机顶直闪 + 大幅过曝（+2EV 以上），主体亮到失去细节，变成"光本身"。</li>
+      <li><b>色彩：</b>品红/紫调，低饱和背景 + 高亮主体，梦境感。</li>
+      <li><b>题材：</b>她不只拍人——花、草、光斑这些"空镜"，是组图的呼吸口。</li>
+    </ul>
+    <div class="fuji"><b>富士配方 · 川内式发光体</b><br>胶片模拟 Astia｜白平衡偏品红：R+3 / B+3<br>高光 −2（保住一点点细节）｜阴影 0｜色彩 +1<br>曝光 +1.5EV｜23mm 或 75mm，拍特写</div>
+    <div class="copy"><b>📍 清水湾复刻：</b>大坑墩找一朵花、一片草叶、一只手——逆光 +1.5EV 过曝，拍"空镜"。回来和人物组图，你的相册会高级很多。</div>
+    <p><a class="btn" href="https://www.worldphoto.org/blogs/15-11-22/illuminating-everyday-rinko-kawauchi-named-2023-outstanding-contribution-photography">看原作（World Photo 专题）→</a></p>
+  </div>
+
+  <div class="break">
+    <h3>蜷川実花 <span class="jp">Mika Ninagawa · 1972–</span></h3>
+    <div class="work">拆的这张：写真集封面——模特躺在浓烈红/品红花丛里，青绿点缀，色彩推到极限，肤色却依然通透，眼神直勾勾。</div>
+    <h4>🔍 拆解</h4>
+    <ul>
+      <li><b>光线：</b>柔和均匀的漫射光（阴天/柔光），脸上无硬阴影——浓烈色彩 + 干净光线是她的不二法门。</li>
+      <li><b>色彩：</b>饱和拉满：红、品红、紫主导，青绿做对比色；肤色单独保住，不跟着一起"浓"。></li>
+      <li><b>情绪：</b>直视镜头，浓颜系，梦境又清醒。</li>
+    </ul>
+    <div class="fuji"><b>富士配方 · 蜷川式浓彩</b><br>胶片模拟 Velvia｜白平衡自动<br>高光 −1｜阴影 +1（暗部别死）｜色彩 +2｜颗粒 关<br>顺光/阴天拍；拍人脸特写时换回 Astia 保肤色</div>
+    <div class="copy"><b>📍 清水湾复刻：</b>二滩大晴天 + Velvia：蓝天大海浓得化不开。自带彩色道具（红伞/花束/彩色裙）往画面里一放，就是蜷川味。</div>
+    <p><a class="btn" href="https://mikaninagawa.com/publications">看原作（蜷川实花官网）→</a></p>
+  </div>
+</section>
+
+<section id="tips">
+  <div class="sec-head"><span class="dot" style="background:var(--gold)"></span><h2>给新手的建议</h2></div>
+  <ul class="tips">
+    <li data-n="1"><b>每个点只练3–4个 pose。</b> 概念图①–⑥每张就是一个机位，拍透比拍多重要。</li>
+    <li data-n="2"><b>让她动起来。</b> "往前走""玩头发""先看远再回头"——动态比摆拍自然十倍，快门连拍。</li>
+    <li data-n="3"><b>你先示范。</b> 把手机概念图举给她看，自己松弛地比划一下，尴尬减半。</li>
+    <li data-n="4"><b>多夸，具体夸。</b> "这个回头特别好""风把裙子吹起来了完美"——模特放松了才有好表情。</li>
+    <li data-n="5"><b>逆光记得给脸补曝光。</b> 点测光对脸 +0.3～+0.7EV，不然脸黑一片。</li>
+    <li data-n="6"><b>带的东西：</b>水、防晒、草帽（道具）、小风扇、湿纸巾、拉链袋、充电宝。</li>
+  </ul>
+</section>
+
+<section>
+  <div class="sec-head"><span class="dot" style="background:var(--muted)"></span><h2>图片与版权说明</h2></div>
+  <p class="credits">「AI概念图」为按三个实地真实样貌生成的示意目标图，仅供摆拍参考。「摆拍参考」来自 <a href="https://www.pexels.com">Pexels</a> 免费图库。四位日本摄影师的原作受版权保护，站内仅作拆解分析，请点击链接前往官方渠道欣赏原作。地点设施信息核对自维基百科、环保署水质年报与香港媒体实拍报道。</p>
+</section>
+
+<footer>祝10月3日出大片 📷 · 记得查天文台最新预报</footer>
+
+<div id="lb"><button class="lb-x" onclick="closeLb()">✕ 关闭</button><img id="lb-img" src="" alt=""><div class="lb-cap" id="lb-cap"></div></div>
+<script>
+const lb=document.getElementById('lb'),img=document.getElementById('lb-img'),cap=document.getElementById('lb-cap');
+function openLb(src,c){img.src=src;cap.textContent=c;lb.classList.add('open');document.body.style.overflow='hidden';}
+document.querySelectorAll('.shot').forEach(s=>{s.addEventListener('click',()=>{openLb(s.querySelector('img').src,s.dataset.cap);});});
+document.querySelectorAll('.concept img').forEach(el=>{el.addEventListener('click',()=>{openLb(el.src,el.dataset.cap||'');});});
+function closeLb(){lb.classList.remove('open');document.body.style.overflow='';}
+lb.addEventListener('click',e=>{if(e.target===lb)closeLb();});
+</script>
+</body>
+</html>
