@@ -95,6 +95,22 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
 #lb .lb-cap{color:#fff;font-size:14px;margin-top:12px;text-align:center;max-width:92vw}
 #lb .lb-x{position:absolute;top:14px;right:16px;color:#fff;font-size:15px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 16px;cursor:pointer}
 .hint{text-align:center;font-size:12px;color:var(--muted);margin-top:8px}
+.mphoto{margin:10px 0 4px;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.mphoto figcaption{font-size:11.5px;color:var(--muted);padding:8px 10px;background:#f8fafc;line-height:1.6}
+.mphoto figcaption a{color:var(--sea)}
+.img-fallback{padding:26px 14px;text-align:center;font-size:13px;color:var(--muted);background:#f1f5f9}
+.img-fallback a{color:var(--sea);font-weight:700}
+.group-title{font-size:15px;font-weight:800;margin:18px 0 10px}
+.ref{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:14px}
+.ref .rcap{padding:12px 14px}
+.ref .rcap b.t{font-size:14.5px;display:block;line-height:1.45;margin:2px 0}
+.ref .who{color:var(--muted);font-size:12px;display:block;margin-bottom:6px}
+.ref .rcap p{font-size:13px;color:#3a3f46;margin:6px 0}
+.ref .rcap p .k{color:var(--accent);font-weight:800}
+.ref .how{background:#1c1917;color:#f5f0e8;border-radius:10px;padding:10px 12px;font-size:12.5px;line-height:1.8;margin-top:8px}
+.ref .how b{color:#fcd34d}
+.ref .credit{font-size:11px;color:var(--muted);margin-top:8px;display:block;line-height:1.6}
+.ref .credit a{color:var(--sea)}
 </style>
 </head>
 <body>
@@ -111,7 +127,7 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
 <div class="alert">⚠️ <b>天气提醒：</b>10月3日香港多云有阵雨可能，27–28°C、湿度大。阴天是天然柔光箱——别慌，拍出来皮肤反而更通透。备好拉链袋防潮、超细纤维布擦镜头。</div>
 
 <nav class="nav">
-  <a href="#plan">🕘 行程</a><a href="#intel">📍 实地情报</a><a href="#concepts">🎨 AI概念图</a><a href="#poses">🤸 摆拍参考</a><a href="#camera">📷 相机设置</a><a href="#masters">🎞️ 大师拆片</a><a href="#tips">💡 新手建议</a>
+  <a href="#plan">🕘 行程</a><a href="#intel">📍 实地情报</a><a href="#concepts">🎨 AI概念图</a><a href="#poses">🤸 摆拍参考</a><a href="#camera">📷 相机设置</a><a href="#masters">🎞️ 大师拆片</a><a href="#reflib">🖼️ 大师图库</a><a href="#tips">💡 新手建议</a>
 </nav>
 
 <section id="plan">
@@ -120,7 +136,7 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
   <div class="timeline">
     <div class="tl-item"><div class="time">09:00 – 11:30 · 清水湾海滩</div><div class="what">趁人少先拍海滩。用更衣室换第一套衣服。先拍<b>一滩</b>（人少、礁石有质感），再沿步道15分钟走到<b>二滩</b>（沙细、热带感）。</div></div>
     <div class="tl-item"><div class="time">11:30 – 15:30 · 休息避光</div><div class="what">正午顶光最难看。吃饭、回看照片、和模特一起过一遍下午的参考图。</div></div>
-    <div class="tl-item"><div class="time">15:30 – 16:00 · 前往大坑墩</div><div class="what">在大坳门下车，沿清水湾道上斜步行约15–20分钟进风筝场。现场无更衣室，提前换好第二套。</div></div>
+    <div class="tl-item"><div class="time">15:30 – 16:00 · 前往大坑墩</div><div class="what">从海滩乘九巴91 / 小巴103、103M<b>往市区方向</b>，在「大坳门」下车，再沿清水湾道上斜步行约15–20分钟进风筝场。现场无更衣室，提前换好第二套。</div></div>
     <div class="tl-item"><div class="time">16:00 – 18:10 · 大坑墩黄金时刻</div><div class="what">顺光/侧逆光拍草原人像，18:10左右日落收工。逆光发丝光是这里的招牌。</div></div>
   </div>
 </section>
@@ -134,7 +150,7 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
     <h3>🌾 大坑墩（清水湾郊野公园内）</h3>
     <ul>
       <li><b>长什么样：</b>一片开阔的<b>绿色草坡</b> + 几棵标志性大树，远处能望到海。注意：<b>10月初芒草季还没到</b>（芒草11–12月才盛），别期待芒草海，绿草坡 + 逆光一样出片。</li>
-      <li><b>怎么去：</b>九巴91 / 小巴16、103、103M 在「大坳门」下车，沿清水湾道上斜步行约15–20分钟。</li>
+      <li><b>怎么去（下午场）：</b>从海滩乘九巴91 / 小巴103、103M<b>往市区方向</b>，在「大坳门」下车，沿清水湾道上斜步行约15–20分钟。</li>
       <li><b>设施：</b>有烧烤场和小食亭；<b>没有更衣室</b>，第二套衣服提前换好或车上换。</li>
       <li><b>拍什么：</b>① 逆光发丝（16:30后，太阳低了才有）；② 蹲低用75mm把人从草坡里"拔"出来，前景留虚化的草做框；③ 大树下拍滨田英明式仰拍；④ 23mm拍大环境，人在草坡上只占一小块。</li>
       <li><b>注意：</b>周六放风筝、野餐的人多，取景避开人群或用大虚化藏掉；草坡无遮阴，防晒做足。</li>
@@ -147,6 +163,7 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
     <h3>🌊 清水湾第一湾（一滩 / 细清水）</h3>
     <ul>
       <li><b>长什么样：</b>比二滩小、安静，滩边混着<b>大礁石和石滩</b>——岩石质感人像首选。</li>
+      <li><b>怎么去（上午第一站）：</b>九巴91（钻石山站 ↔ 清水湾）在「清水湾第一滩」站下车即达；或乘小巴103到二滩，再沿海滨步道走15分钟过来。</li>
       <li><b>设施（已核对）：</b>停车位、<b>小食亭</b>、烧烤场、更衣室、淋浴、洗手间、浮台。自带水和零食更稳。</li>
       <li><b>水质：</b>环保署2025年评级为「一般」，下水玩玩可以，拍完记得冲洗。</li>
       <li><b>拍什么：</b>礁石区坐拍 / 站拍（参考AI概念图③）；早上9点人最少，背景最干净。</li>
@@ -159,6 +176,7 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
     <h3>🌊 清水湾第二湾（二滩 / 大清水）</h3>
     <ul>
       <li><b>长什么样：</b>沙滩最大、沙最细，背后是<b>整片绿山</b>——经典"热带天堂"构图，右侧滩头有石滩。</li>
+      <li><b>怎么去：</b>小巴103（观塘码头线）直达「清水湾第二湾泳滩」总站；103M（将军澳站线）也到；九巴91坐到「清水湾」总站再步行前往。</li>
       <li><b>设施：</b>小食亭、更衣室等齐全，人流也是三个点里最多的。</li>
       <li><b>水质：</b>环保署2025年评级为「良好」。</li>
       <li><b>拍什么：</b>23mm大场景（人+沙滩+绿山）；白裙踏浪；人多时用75mm长焦虚化掉背景人群。</li>
@@ -258,11 +276,15 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
 
 <section id="masters">
   <div class="sec-head"><span class="dot" style="background:var(--accent)"></span><h2>日本大师拆片</h2></div>
-  <p class="sec-sub">每人拆一张真作：光线、构图、色彩怎么来的，富士参数怎么配，清水湾哪能复刻。原作有版权，点链接去官方渠道看图。</p>
+  <p class="sec-sub">每人拆一张真作：光线、构图、色彩怎么来的，富士参数怎么配，清水湾哪能复刻。原作已嵌在站内展示（带出处署名），点击来源链接可看原作页面。</p>
 
   <div class="break">
     <h3>濱田英明 <span class="jp">Hideaki Hamada · 1977–</span></h3>
     <div class="work">拆的这张：两个孩子坐在大树上，仰拍，阳光透过树叶洒成光斑，孩子望向远方不看镜头（Lomography 专访配图，Pentax 67II 胶片拍摄）。</div>
+    <figure class="mphoto">
+      <img loading="lazy" referrerpolicy="no-referrer" src="https://cdn.assets.lomography.com/9e/f85a06f4e149f300f01836bbf18960a82f063d/1216x992x2.jpg?auth=3f5ac83e41175991344252e8e39dda6b640076a3" alt="滨田英明：两个孩子坐在树上" onerror="imgFb(this,'https://www.lomography.com/magazine/207800-portraiture-and-more-japanese-film-photographer-hideaki-hamada')">
+      <figcaption>© Hideaki Hamada ｜ 图片来源：<a href="https://www.lomography.com/magazine/207800-portraiture-and-more-japanese-film-photographer-hideaki-hamada">Lomography 专访</a></figcaption>
+    </figure>
     <h4>🔍 拆解</h4>
     <ul>
       <li><b>光线：</b>午后树荫下的斑驳逆光/顶光，背景树叶过曝成圆形光斑，人物脸在柔和阴影里。</li>
@@ -277,6 +299,10 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
   <div class="break">
     <h3>篠山紀信 <span class="jp">Kishin Shinoyama · 1940–2024</span></h3>
     <div class="work">拆的这张：《Double Fantasy》专辑封面——1980年中央公园，列侬与洋子接吻。户外自然光，黑白，高反差，颗粒粗粝，情绪压过一切技术。</div>
+    <figure class="mphoto">
+      <img loading="lazy" referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/en/c/cb/JohnLennon-albums-doublefantasy.jpg" alt="篠山纪信：Double Fantasy 专辑封面" onerror="imgFb(this,'https://en.wikipedia.org/wiki/Double_Fantasy')">
+      <figcaption>© Kishin Shinoyama ｜ 图片来源：<a href="https://en.wikipedia.org/wiki/Double_Fantasy">Wikipedia《Double Fantasy》专辑封面</a></figcaption>
+    </figure>
     <h4>🔍 拆解</h4>
     <ul>
       <li><b>光线：</b>户外自然光（阴天般的柔和），面部受光均匀，没有戏剧性布光——情绪全靠瞬间。</li>
@@ -291,6 +317,10 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
   <div class="break">
     <h3>川内倫子 <span class="jp">Rinko Kawauchi · 1972–</span></h3>
     <div class="work">拆的这张：《Illuminance》系列中的玫瑰——直闪 + 大幅过曝，花"烧"成一团发光的白，背景沉进深品红，梦幻得不真实。</div>
+    <figure class="mphoto">
+      <img loading="lazy" referrerpolicy="no-referrer" src="https://www.worldphoto.org/sites/default/files/styles/social_card/public/%C2%A9%20Rinko%20Kawauchi%2C%20Untitled%2C%20from%20the%20series%20_Illuminance%E2%80%9D%2C%202011.jpg?h=02932cb2&itok=nqSwVeUK" alt="川内伦子：Illuminance 玫瑰" onerror="imgFb(this,'https://www.worldphoto.org/blogs/15-11-22/illuminating-everyday-rinko-kawauchi-named-2023-outstanding-contribution-photography')">
+      <figcaption>© Rinko Kawauchi, Untitled, from <i>Illuminance</i> (2011) ｜ 图片来源：<a href="https://www.worldphoto.org/blogs/15-11-22/illuminating-everyday-rinko-kawauchi-named-2023-outstanding-contribution-photography">World Photography Organisation</a></figcaption>
+    </figure>
     <h4>🔍 拆解</h4>
     <ul>
       <li><b>光线：</b>机顶直闪 + 大幅过曝（+2EV 以上），主体亮到失去细节，变成"光本身"。</li>
@@ -305,16 +335,151 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
   <div class="break">
     <h3>蜷川実花 <span class="jp">Mika Ninagawa · 1972–</span></h3>
     <div class="work">拆的这张：写真集封面——模特躺在浓烈红/品红花丛里，青绿点缀，色彩推到极限，肤色却依然通透，眼神直勾勾。</div>
+    <figure class="mphoto">
+      <img loading="lazy" referrerpolicy="no-referrer" src="https://mikaninagawa.com/wp/wp-content/uploads/2018/08/054-360x493.jpg" alt="蜷川实花：花中人像写真集封面" onerror="imgFb(this,'https://mikaninagawa.com/publications')">
+      <figcaption>© Mika Ninagawa ｜ 图片来源：<a href="https://mikaninagawa.com/publications">蜷川实花官网</a></figcaption>
+    </figure>
     <h4>🔍 拆解</h4>
     <ul>
       <li><b>光线：</b>柔和均匀的漫射光（阴天/柔光），脸上无硬阴影——浓烈色彩 + 干净光线是她的不二法门。</li>
-      <li><b>色彩：</b>饱和拉满：红、品红、紫主导，青绿做对比色；肤色单独保住，不跟着一起"浓"。></li>
+      <li><b>色彩：</b>饱和拉满：红、品红、紫主导，青绿做对比色；肤色单独保住，不跟着一起"浓"。</li>
       <li><b>情绪：</b>直视镜头，浓颜系，梦境又清醒。</li>
     </ul>
     <div class="fuji"><b>富士配方 · 蜷川式浓彩</b><br>胶片模拟 Velvia｜白平衡自动<br>高光 −1｜阴影 +1（暗部别死）｜色彩 +2｜颗粒 关<br>顺光/阴天拍；拍人脸特写时换回 Astia 保肤色</div>
     <div class="copy"><b>📍 清水湾复刻：</b>二滩大晴天 + Velvia：蓝天大海浓得化不开。自带彩色道具（红伞/花束/彩色裙）往画面里一放，就是蜷川味。</div>
     <p><a class="btn" href="https://mikaninagawa.com/publications">看原作（蜷川实花官网）→</a></p>
   </div>
+</section>
+
+<section id="reflib">
+  <div class="sec-head"><span class="dot" style="background:var(--sea)"></span><h2>大师参考图库</h2></div>
+  <p class="sec-sub">10 张名家真作，按我们的两个场景分组。海滩组去一滩/二滩直接抄，草原组去大坑墩直接抄。每张都标了"学什么"和"富士怎么拍"。</p>
+
+  <h3 class="group-title">🌊 海滩组 · 一滩 / 二滩直接抄</h3>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://images2.bonhams.com/image?src=Images%2Flive%2F2010-12%2F17%2F8210662-39-1.jpg&width=580" alt="杉本博司 Mediterranean Sea, Cassis" onerror="imgFb(this,'https://www.bonhams.com/auction/18561/lot/118/hiroshi-sugimoto-japanese-born-1948-mediterranean-sea-cassis/')">
+    <div class="rcap">
+      <span class="tag sea">海滩</span>
+      <b class="t">《Mediterranean Sea, Cassis》(1989)</b>
+      <span class="who">杉本博司 Hiroshi Sugimoto · Seascapes 系列</span>
+      <p><span class="k">学什么：</span>地平线切在正中、海天各半，"少即是多"——人物只占画面一小角，留白即高级。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/8｜1/250s，地平线放正中<br>ACROS｜WB自动｜高光−1 阴影+1｜颗粒弱｜DR400｜EV 0</div>
+      <span class="credit">© Hiroshi Sugimoto ｜ 来源：<a href="https://www.bonhams.com/auction/18561/lot/118/hiroshi-sugimoto-japanese-born-1948-mediterranean-sea-cassis/">Bonhams 拍卖图录</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://cdn.luxuo.com/2019/11/660-poolsidegossip.jpg" alt="Slim Aarons Poolside Gossip" onerror="imgFb(this,'https://luxuo.vn/culture/celebrities/slim-aarons-chup-anh-nhung-ke-quyen-ru-lam-nhung-dieu-quyen-ru-o-nhung-noi-quyen-ru.html')">
+    <div class="rcap">
+      <span class="tag sea">海滩</span>
+      <b class="t">《Poolside Gossip》(1970)</b>
+      <span class="who">Slim Aarons</span>
+      <p><span class="k">学什么：</span>大太阳下高饱和的热带度假感，人物小、环境讲故事——二滩的正确打开方式。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/8｜1/250s｜ISO 160<br>Velvia｜WB 5500K｜色彩+2 高光−1 阴影−1｜DR200｜EV +1/3</div>
+      <span class="credit">© Slim Aarons ｜ 来源：<a href="https://luxuo.vn/culture/celebrities/slim-aarons-chup-anh-nhung-ke-quyen-ru-lam-nhung-dieu-quyen-ru-o-nhung-noi-quyen-ru.html">Luxuo</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://fomu.be/uploads/resized/uploads/1003927/JQ_0076_0002_6df196e37d3f6d4471c4d4e5f7898f72.jpg" alt="拉蒂格 海滩抓拍" onerror="imgFb(this,'https://fomu.be/fondsen')">
+    <div class="rcap">
+      <span class="tag sea">海滩</span>
+      <b class="t">海滩即兴抓拍</b>
+      <span class="who">雅克-亨利·拉蒂格 Jacques-Henri Lartigue · FOMU 馆藏</span>
+      <p><span class="k">学什么：</span>不摆拍，抓海滩上的自然瞬间——"决定性瞬间"思维，适合拍模特玩水、走路。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/8｜1/500s，预对焦3米连拍<br>ACROS｜WB自动｜高光0 阴影+1｜颗粒强｜DR200</div>
+      <span class="credit">© Jacques-Henri Lartigue ｜ 来源：<a href="https://fomu.be/fondsen">FOMU 安特卫普摄影博物馆</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://www.staedteregion-aachen.de/fileadmin/_processed_/8/7/csm_026-Bild_2_-Capa__Pablo_Picasso_with_Francoise_Gilot_and_his_nephew_Javier_Vilato__on_the_beach__Golfe-Juan__France__August_1948___c__Robert_Capa__c__International_Center_of_Photography__Magnum_Photos_412fd00144.jpg" alt="卡帕 毕加索在海滩" onerror="imgFb(this,'https://www.staedteregion-aachen.de/de/navigation/aemter/oeffentlichkeitsarbeit-s-13/aktuelles/pressemitteilungen/aktuelle-pressemitteilungen/usstellung-robert-capa-der-visuelle-journalist')">
+    <div class="rcap">
+      <span class="tag sea">海滩</span>
+      <b class="t">毕加索与弗朗索瓦丝·吉洛，Golfe-Juan 海滩 (1948)</b>
+      <span class="who">罗伯特·卡帕 Robert Capa</span>
+      <p><span class="k">学什么：</span>蹲低仰拍 + 遮阳伞做前景，海滩人像的经典低机位，行走动感极强。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/5.6｜1/500s，蹲下仰拍<br>ACROS｜WB自动｜高光−1 阴影+2｜颗粒强｜DR200｜EV −1/3</div>
+      <span class="credit">© Robert Capa / ICP / Magnum Photos ｜ 来源：<a href="https://www.staedteregion-aachen.de/de/navigation/aemter/oeffentlichkeitsarbeit-s-13/aktuelles/pressemitteilungen/aktuelle-pressemitteilungen/usstellung-robert-capa-der-visuelle-journalist">亚琛市政府展览新闻</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://artblart.com/wp-content/uploads/2025/12/martin-parr-new-brighton-england-1.jpg" alt="马丁帕尔 New Brighton" onerror="imgFb(this,'https://artblart.com/')">
+    <div class="rcap">
+      <span class="tag sea">海滩</span>
+      <b class="t">《New Brighton》(1983–85)</b>
+      <span class="who">马丁·帕尔 Martin Parr · The Last Resort 系列</span>
+      <p><span class="k">学什么：</span>机顶直闪 + 高饱和的"游客照"式松弛感，不端着的劲——闺蜜/情侣拍可借鉴。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/8｜1/250s｜ISO 400，强制机顶闪光<br>Velvia｜WB自动｜色彩+3｜DR100｜直闪是灵魂</div>
+      <span class="credit">© Martin Parr / Magnum Photos ｜ 来源：<a href="https://artblart.com/">Art Blart</a></span>
+    </div>
+  </div>
+
+  <h3 class="group-title">🌾 草原组 · 大坑墩直接抄</h3>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://sammlungenonline.albertina.at/internal/media/dispatcher/250509/preview" alt="细江英公 Kamaitachi #17" onerror="imgFb(this,'https://sammlungenonline.albertina.at/objects/341534/kamaitachi-17')">
+    <div class="rcap">
+      <span class="tag grass">草原</span>
+      <b class="t">《Kamaitachi #17》(1965)</b>
+      <span class="who">细江英公 Eikoh Hosoe · Kamaitachi 系列</span>
+      <p><span class="k">学什么：</span>让模特在乡野背景前跳跃/大幅动作，动态身体与静止环境的张力——大坑墩跳跃照学这张。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/5.6–f/8｜1/500s以上冻结动作<br>ACROS｜WB自动｜高光−1 阴影+2｜颗粒强｜DR200</div>
+      <span class="credit">© Eikoh Hosoe ｜ 来源：<a href="https://sammlungenonline.albertina.at/objects/341534/kamaitachi-17">维也纳 Albertina 博物馆馆藏</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://arnolfini.org.uk/app/uploads/2024/09/Image-5.-Untitled.-From-the-series-Ametsuchi.-%C2%A9-Rinko-Kawauchi.jpg" alt="川内伦子 Ametsuchi" onerror="imgFb(this,'https://arnolfini.org.uk/rinkokawauchi/')">
+    <div class="rcap">
+      <span class="tag grass">草原</span>
+      <b class="t">Untitled, from《Ametsuchi》(2013)</b>
+      <span class="who">川内伦子 Rinko Kawauchi</span>
+      <p><span class="k">学什么：</span>蓝调时刻的草原空镜——环境氛围本身就是作品，适合收尾的"呼吸感"画面。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/4–f/5.6｜蓝调时刻 1/30s（找支撑）｜ISO 800<br>Velvia｜WB 3800K｜色彩+2 高光−2 阴影+1｜DR100｜EV −1/3</div>
+      <span class="credit">© Rinko Kawauchi ｜ 来源：<a href="https://arnolfini.org.uk/rinkokawauchi/">Arnolfini 画廊</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://www.filmstillphotography.com/uploads/8/7/1/8/87185116/sally-mann-immediate-family-shot1_orig.jpg" alt="莎莉曼 Immediate Family" onerror="imgFb(this,'https://www.filmstillphotography.com/sally-mann-immediate-family.html')">
+    <div class="rcap">
+      <span class="tag grass">草原</span>
+      <b class="t">《Immediate Family》系列</b>
+      <span class="who">莎莉·曼 Sally Mann</span>
+      <p><span class="k">学什么：</span>俯拍躺在地上的人，亲密不设防的视角——草地"躺拍"范本。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/2.8｜1/250s，站高俯拍<br>ACROS｜WB自动｜高光−1 阴影+1｜颗粒弱｜DR200｜EV +1/3</div>
+      <span class="credit">© Sally Mann ｜ 来源：<a href="https://www.filmstillphotography.com/sally-mann-immediate-family.html">Film Still Photography</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://cdn.assets.lomography.com/46/65e09c5d3ff91ce0770dd5ce98f50dc4a9140a/705x576x2.jpg?auth=983e56243d1d1ad1526d969213beda160c05d537" alt="滨田英明 家人与黑胶唱片" onerror="imgFb(this,'https://www.lomography.com/magazine/207800-portraiture-and-more-japanese-film-photographer-hideaki-hamada')">
+    <div class="rcap">
+      <span class="tag grass">草原</span>
+      <b class="t">家人与黑胶唱片（户外）</b>
+      <span class="who">滨田英明 Hideaki Hamada · Lomography 专访配图</span>
+      <p><span class="k">学什么：</span>用道具（唱片/书/草帽）半遮脸，化解面对镜头的尴尬——业余模特救星技巧。</p>
+      <div class="how"><b>富士怎么拍：</b>23mm f/4｜1/500s<br>Astia｜WB日光｜色彩0 高光−1 阴影0｜颗粒弱｜DR200</div>
+      <span class="credit">© Hideaki Hamada ｜ 来源：<a href="https://www.lomography.com/magazine/207800-portraiture-and-more-japanese-film-photographer-hideaki-hamada">Lomography 专访</a></span>
+    </div>
+  </div>
+
+  <div class="ref">
+    <img loading="lazy" referrerpolicy="no-referrer" src="https://mikaninagawa.com/wp/wp-content/uploads/2018/08/054-360x493.jpg" alt="蜷川实花 花中人像" onerror="imgFb(this,'https://mikaninagawa.com/publications')">
+    <div class="rcap">
+      <span class="tag grass">草原</span>
+      <b class="t">花中人像（写真集封面）</b>
+      <span class="who">蜷川实花 Mika Ninagawa</span>
+      <p><span class="k">学什么：</span>标志性的"浓"——模特躺在高饱和红粉花海里，色彩本身就是主题。</p>
+      <div class="how"><b>富士怎么拍：</b>75mm f/1.2–f/2｜1/1000s以上，贴近花丛低角度<br>Velvia｜WB 7000K｜色彩+4 高光−2 阴影+1｜DR100｜EV +1/3</div>
+      <span class="credit">© Mika Ninagawa ｜ 来源：<a href="https://mikaninagawa.com/publications">蜷川实花官网</a></span>
+    </div>
+  </div>
+
+  <p class="hint">大师原作均为站内直接展示，图片来源已署名；点击来源链接可看原作页面</p>
 </section>
 
 <section id="tips">
@@ -331,7 +496,7 @@ footer{text-align:center;padding:26px 16px 8px;font-size:12px;color:var(--muted)
 
 <section>
   <div class="sec-head"><span class="dot" style="background:var(--muted)"></span><h2>图片与版权说明</h2></div>
-  <p class="credits">「AI概念图」为按三个实地真实样貌生成的示意目标图，仅供摆拍参考。「摆拍参考」来自 <a href="https://www.pexels.com">Pexels</a> 免费图库。四位日本摄影师的原作受版权保护，站内仅作拆解分析，请点击链接前往官方渠道欣赏原作。地点设施信息核对自维基百科、环保署水质年报与香港媒体实拍报道。</p>
+  <p class="credits">「AI概念图」为按三个实地真实样貌生成的示意目标图，仅供摆拍参考。「摆拍参考」来自 <a href="https://www.pexels.com">Pexels</a> 免费图库。「大师拆片」与「大师参考图库」中的摄影师原作直接嵌在站内展示、图片来源已署名，版权归原作者/机构所有，点击来源链接可前往原作页面。地点设施信息核对自维基百科、环保署水质年报与香港媒体实拍报道。</p>
 </section>
 
 <footer>祝10月3日出大片 📷 · 记得查天文台最新预报</footer>
@@ -344,6 +509,7 @@ document.querySelectorAll('.shot').forEach(s=>{s.addEventListener('click',()=>{o
 document.querySelectorAll('.concept img').forEach(el=>{el.addEventListener('click',()=>{openLb(el.src,el.dataset.cap||'');});});
 function closeLb(){lb.classList.remove('open');document.body.style.overflow='';}
 lb.addEventListener('click',e=>{if(e.target===lb)closeLb();});
+function imgFb(el,src){var d=document.createElement('div');d.className='img-fallback';d.innerHTML='图片加载失败，<a href="'+src+'" target="_blank" rel="noopener">点击看原作 →</a>';el.replaceWith(d);}
 </script>
 </body>
 </html>
