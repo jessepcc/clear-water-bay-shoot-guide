@@ -1,11 +1,11 @@
 ---
 name: photo-style-guide
-description: Build the photo-style / reference section of a shoot guide in this repo — find real reference photos with documented social-media or publication popularity, include or link them with credits, measure their tone and colour, and translate that into a specific Fujifilm X-T5 film-simulation recipe with an honest statement of what the camera cannot recreate. Use when creating a new guide (e.g. victoria-night/), adding references or "recipes" to a guide, or when asked how to get "this look" on the Fujifilm.
+description: Build the photo-style / reference section of a shoot guide in this repo — first find real, dated photos of the actual location so expectations match reality, then find real reference photos with documented social-media or publication popularity, include or link them with credits, measure their tone and colour, and translate that into a specific Fujifilm X-T5 film-simulation recipe with an honest statement of what the camera cannot recreate. Use when creating a new guide (e.g. victoria-night/), adding references or "recipes" to a guide, or when asked how to get "this look" on the Fujifilm.
 ---
 
-# Photo style guide: real references → Fujifilm recipe
+# Photo style guide: real scene → real references → Fujifilm recipe
 
-The goal is a reference section a photographer can use on location: real photos people actually engaged with, each with credit and source, a measured description of its look, and an X-T5 recipe with every parameter filled in. Generic advice ("use Classic Chrome for a moody look", "shoot in golden hour") is a failure of this skill. Every claim must be traceable to a link, a measurement, or a stated assumption.
+The goal is a reference section a photographer can use on location: real photos of the scene as it actually looks in the shoot's season and light, then real photos people actually engaged with, each with credit and source, a measured description of its look, and an X-T5 recipe with every parameter filled in. Generic advice ("use Classic Chrome for a moody look", "shoot in golden hour") is a failure of this skill. Every claim must be traceable to a link, a measurement, or a stated assumption.
 
 The Clear Water Bay guide is the worked example: `clear-water-bay/research-notes.md` (evidence and exclusions), `clear-water-bay/image-sources.json` (provenance) and the `#reflib` section of `clear-water-bay/index.html` (presentation).
 
@@ -17,13 +17,42 @@ The Clear Water Bay guide is the worked example: `clear-water-bay/research-notes
 4. **Separate light from processing.** Golden backlight, haze, sunset colour and flash are things that happen on location. Write them as shooting instructions (time, direction, distance), not as camera settings.
 5. **State what the camera cannot do.** Lifted or faded black points, halation around lights, bloom or mist, split toning beyond what a film simulation does, and selective colour shifts all need post-processing or a physical filter. Write a "做不到" (can't do in-camera) line for every reference.
 6. **Measure the file you actually have.** Web previews are resized and re-encoded, and sometimes watermarked. Report numbers as properties of that file, and crop out watermarks before measuring.
-7. **No AI images as colour targets.** AI concept art may illustrate composition, clearly labelled, but is never a reference to match.
+7. **No AI images as colour targets or scene evidence.** AI concept art may illustrate composition, clearly labelled, but is never a reference to match and never stands in for what the location looks like.
 8. **Rights and people.** Use only publicly published promotional or official images. Keep the original bytes and watermarks, credit the photographer and publisher, and never bypass paywalls or logins or copy a whole album. When the subject's age matters, document it from a source, as `clear-water-bay/research-notes.md` does.
 9. **Confidence on every recipe line:** `measured` (from the script), `tested` (checked against your own test shot), or `estimate` (visual judgement). Never leave a line unlabelled.
 
+## Step 0 — Find real photos of the actual scene first
+
+Before choosing any style reference, establish what the location really looks like in the shoot's season, time of day and weather. This decides which references are achievable. Brown October grass cannot produce a lush-green reference, a crowded beach cannot produce an empty-beach frame without a long lens, and a harbour skyline at blue hour is a different exposure problem from one at full night.
+
+Collect 3–8 real, dated photos per shooting spot. In order of preference:
+
+| Source | Why | Notes |
+| --- | --- | --- |
+| Wikimedia Commons, Flickr (Creative Commons licence) | Usually dated (EXIF or upload) and reusable under a licence | Check the licence. CC BY / BY-SA may be stored with attribution; anything else is linked only. |
+| Official pages (e.g. LCSD beach pages, AFCD country parks, Discover Hong Kong, the operator of the venue) | Show facilities, access and layout reliably | Usually link only; the photos may be idealised, so say so. |
+| Hong Kong Observatory weather webcams, other public webcams | The real current or recent light, sky and visibility at a known time | Link the camera page and the capture time; check the view direction matches the spot. |
+| Google Maps / Street View, Tripadvisor, news articles | Recent, unedited views and crowd levels; Street View shows access paths | Link only; note the date shown. |
+| Instagram / Xiaohongshu location tags | What people actually photograph there, and from where | Link only; often login-walled and heavily edited, so treat colour as unreliable. |
+
+For each scene photo, record:
+- the URL, the photographer or uploader, the licence, and the date taken (or "date unknown");
+- the time of day and weather it shows;
+- how you confirmed it is the right spot: a landmark, the coastline shape, a sign, or a match with Street View.
+
+Discard photos you cannot place or date for the season. If the network blocks a source, ask the user for photos they have taken there.
+
+Then write a short **scene reality** note per spot:
+- the actual colours of the ground, sea, vegetation and buildings in the shoot's season (measure licensed or user-supplied files with `analyze_reference.py`, e.g. a crop of the grass or the sand);
+- where the light comes from at the planned time (sun azimuth and elevation from a sun calculator for that date, or which lights are on at night);
+- what is in the background (crowds, construction, fences, power lines);
+- what the scene can and cannot give.
+
+Use it in Step 1: reject or re-scope references whose look depends on things this scene does not have, and say what the shooter must change (time, angle, focal length) to get close.
+
 ## Step 1 — Find references with real evidence
 
-Decide what the guide needs first: location type, light (time of day, weather, night or day), subject, gear (X-T5 with XF 23mm ≈ 35mm-e and 75mm ≈ 112.5mm-e), and the 2–4 looks the shoot is going for. Then look for references that match **the same kind of light**. A sunset reference cannot be matched at noon, and a night neon reference cannot be matched under streetlights alone.
+Using the scene reality notes from Step 0, decide what the guide needs: location type, light (time of day, weather, night or day), subject, gear (X-T5 with XF 23mm ≈ 35mm-e and 75mm ≈ 112.5mm-e), and the 2–4 looks the shoot is going for. Then look for references that match **the same kind of light**. A sunset reference cannot be matched at noon, and a night neon reference cannot be matched under streetlights alone.
 
 Where evidence is usually findable:
 
@@ -142,7 +171,14 @@ Move one setting at a time to shrink the reported differences, then mark the cha
 
 ## Output in the guide
 
-For each reference, in Chinese (the guide's language), in the guide's reference section:
+First, for each shooting spot, add a **实景 (real scene)** card in the guide's location section:
+- 1–3 real scene photos (stored with attribution if the licence allows, otherwise linked), each with date, time of day and source;
+- the scene reality note from Step 0 in 2–4 lines;
+- which references below suit this spot, and which do not.
+
+Use these real photos in place of AI concept art wherever possible. If an AI illustration stays, keep its "not a real photo" label and show a real scene photo next to it.
+
+Then, for each reference, in Chinese (the guide's language), in the guide's reference section:
 
 1. The image (or link), with credit and source link.
 2. **为什么选它 (why it was chosen):** the popularity evidence with number, date and link, or "编辑精选，无热度数据" (editor's pick, no popularity data) with the reason.
@@ -151,7 +187,7 @@ For each reference, in Chinese (the guide's language), in the guide's reference 
 5. **X-T5 起始配方 (starting recipe):** the full recipe from 3e in the dark `.how` / `.recipe` block, with confidence labels.
 6. **做不到 (can't do in-camera):** what needs post, a filter, or different light.
 
-In `<guide>/research-notes.md`, add a table row per reference covering:
+In `<guide>/research-notes.md`, add a "Scene evidence" table (one row per scene photo: URL, date taken, licence, how it was confirmed to be the spot, what it shows). Then add a table row per reference covering:
 - source and date;
 - the evidence and what it does and does not prove;
 - the measurements;
@@ -165,6 +201,8 @@ List the rejected candidates under "Exclusions".
 - Specific (accept; illustrative numbers): "Backlit, sun about 15° above the horizon behind her left shoulder. The white dress measures b\*=+11 (warm) and the darkest hair only reaches L\*21, so the blacks are faded. On the X-T5: Astia, WB Daylight R+2/B−2 (measured), DR200, Highlights −1, Shadows −2 (measured), Color 0, CCE Weak (estimate), exposure +⅓ (estimate). Can't do in-camera: the raised black floor at L\*21 needs a curve in post. Without it, expect deeper hair shadows than the reference. Shoot 17:10–17:35 in October; before that the sun is too high for this rim light."
 
 ## Final checklist
+- [ ] Each shooting spot has real, dated, located scene photos and a scene reality note, gathered before choosing references.
+- [ ] References that this scene cannot deliver in the shoot's season and light were rejected or re-scoped, with the reason given.
 - [ ] Every "popular" claim has a number, date and link, or the reference is labelled as an editorial pick.
 - [ ] Every image is credited and linked; downloaded files are in `image-sources.json` with sha256.
 - [ ] Light is described as shooting instructions, separate from the recipe.
