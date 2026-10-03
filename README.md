@@ -14,6 +14,7 @@ The repository and Vercel project keep their original Clear Water Bay names; the
 index.html          Guide index at the site root: one card per guide, newest first
 assets/guide.css    Shared design system for the index and every guide
 assets/guide.js     Shared behaviour: scene tabs, reference filters, image lightbox
+skills/             Agent skills (Agent Skills format), listed in AGENTS.md
 vercel.json         Trailing-slash redirects and redirects from pre-reorganisation URLs
 clear-water-bay/    One folder per guide: index.html, images/, research notes, image sources
 ```
@@ -33,7 +34,7 @@ Open http://127.0.0.1:8000/ for the index and http://127.0.0.1:8000/clear-water-
 1. Choose a short kebab-case slug, such as `victoria-night`, and create `victoria-night/index.html` with its own `images/` folder. Starting from a copy of `clear-water-bay/index.html`, keep the `../assets/guide.css` stylesheet, the `../assets/guide.js` script, the `.hero-back` link to `../`, and the `#lb` lightbox markup; replace the rest.
 2. Build from the shared components (`.card`, `.recipe`, `.scene-tabs`, `.ref-filters` with `.album-card`, `.gallery .shot`, `.concept`, `.timeline`, `.field-dock`) so the interactive parts need no new JavaScript. The markup each widget expects is described at the top of `assets/guide.js`.
 3. Put guide-only styling in a `<style>` block in that page, overriding the `:root` tokens when the guide needs its own palette (for example, a darker one for a night shoot). Change `assets/guide.css` or `assets/guide.js` only for improvements that every guide should get, and recheck every guide afterwards.
-4. Keep research notes and image source records inside the guide folder, as `clear-water-bay/` does.
+4. Build the reference / colour-style section with the project skill at `skills/photo-style-guide/` (any coding agent finds it through `AGENTS.md`; in Claude Code you can also run `/photo-style-guide`): real references with documented popularity, credits and links, measured tone and colour, and an X-T5 film-simulation recipe that states what it cannot recreate. Keep research notes and image source records inside the guide folder, as `clear-water-bay/` does.
 5. Add the guide's card at the top of the list in the root `index.html`, and add a row to the table above.
 
 ## Deploy
