@@ -4,6 +4,7 @@ Mobile-first, static Chinese-language field guides for portrait shoots, one per 
 
 | Guide | Folder | Shoot date | Live |
 | --- | --- | --- | --- |
+| 维港 · 蓝调飞灯与城市人像 (Victoria Harbour dusk-to-night, one-light portraits) | [`victoria-night/`](victoria-night/) | 日期未定，17:00–19:00 | https://clearwater-bay-shoot-guide.vercel.app/victoria-night/ |
 | 清水湾 · 海滩 × 大坑墩 (Clear Water Bay beaches and Tai Hang Tun grassland) | [`clear-water-bay/`](clear-water-bay/) | 2026-10-03 | https://clearwater-bay-shoot-guide.vercel.app/clear-water-bay/ |
 
 The repository and Vercel project keep their original Clear Water Bay names; they host every guide.
@@ -17,6 +18,7 @@ assets/guide.js     Shared behaviour: scene tabs, reference filters, image light
 skills/             Agent skills (Agent Skills format), listed in AGENTS.md
 vercel.json         Trailing-slash redirects and redirects from pre-reorganisation URLs
 clear-water-bay/    One folder per guide: index.html, images/, research notes, image sources
+victoria-night/     X-T5 + 23mm / 75mm + iT32 / X5; CTO, off-camera flash and dusk-to-night shots
 ```
 
 ## Run locally
@@ -28,6 +30,16 @@ python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 Open http://127.0.0.1:8000/ for the index and http://127.0.0.1:8000/clear-water-bay/ for a guide. Guide pages use relative paths (`images/…`, `../assets/…`), so a guide URL must end with `/`; both Python's server and the `trailingSlash` setting in `vercel.json` redirect `/<slug>` to `/<slug>/`.
+
+Run the server from the **repository root**, not a guide folder. Serving only `victoria-night/` makes `/assets/guide.css` and `/assets/guide.js` unavailable. Use a browser to view the served site. The Codex file tab may display HTML source as text instead of rendering a webpage; that is a viewer limitation, not a CSS failure.
+
+For a downloadable HTML copy to open in a web browser, generate a self-contained export:
+
+```sh
+python3 scripts/export-preview.py victoria-night --output /tmp/victoria-night-preview.html
+```
+
+The export embeds shared CSS, JavaScript and original image bytes without changing the canonical guide. Download it and open it in a browser; it does **not** make an HTML source-only file viewer render a webpage. In-page controls work offline; links to other site pages and research files point to the website and require those pages to be deployed. For review within a file viewer, provide rendered PNG or PDF exports instead. Keep generated exports outside the repository; Vercel should publish the canonical site.
 
 ## Add a guide
 
