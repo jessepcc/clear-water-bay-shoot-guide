@@ -9,6 +9,7 @@ Skills live in `skills/<name>/SKILL.md` (Agent Skills format: YAML front matter 
 | Skill | Use when |
 | --- | --- |
 | [`skills/photo-style-guide/`](skills/photo-style-guide/SKILL.md) | Creating a guide's reference / colour-style section: first real, dated photos of the actual location, then reference photos, or turning a reference photo's look into a Fujifilm X-T5 film-simulation recipe. Includes `analyze_reference.py` (needs Python 3 + Pillow). |
+| [`skills/scene-concept-image/`](skills/scene-concept-image/SKILL.md) | No real reference photo exists for a planned scene + light + pose: generate an AI concept image grounded in real photos of the actual location, check it against the real scene, and label and record it as AI. Never a colour target for recipes. |
 
 ## Conventions
 

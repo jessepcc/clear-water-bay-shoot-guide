@@ -75,6 +75,8 @@ Reject a candidate when:
 
 Write each rejection into the guide's research notes under "Exclusions", as the Clear Water Bay notes do.
 
+If no real reference exists for a scene + light + pose the guide needs, record the searches you tried, then use `skills/scene-concept-image/SKILL.md` to make a clearly labelled AI concept image based on the real scene photos from Step 0. Concept images illustrate composition only. The recipe for that shot then comes from the closest real reference, and the guide says it is approximate.
+
 ## Step 2 — Include or link the photo
 
 - **Downloadable public promotional image:** save the exact bytes the source page serves, without re-encoding, cropping or removing watermarks:
