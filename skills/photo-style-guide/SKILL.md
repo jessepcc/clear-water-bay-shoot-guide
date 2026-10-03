@@ -73,8 +73,8 @@ Turn this into what to do on location: the time window, which way the model face
 Run the helper on the full frame, then on crops of specific regions:
 
 ```sh
-python3 .claude/skills/photo-style-guide/analyze_reference.py <guide>/images/ref.jpg
-python3 .claude/skills/photo-style-guide/analyze_reference.py <guide>/images/ref.jpg --crop 0.40,0.55,0.60,0.80   # e.g. the white dress
+python3 skills/photo-style-guide/analyze_reference.py <guide>/images/ref.jpg
+python3 skills/photo-style-guide/analyze_reference.py <guide>/images/ref.jpg --crop 0.40,0.55,0.60,0.80   # e.g. the white dress
 ```
 
 - **Full frame:** tonal range (L\* percentiles, crushed and clipped share, p5–p95 spread), overall chroma, and hue balance.
@@ -136,7 +136,7 @@ Ranges on the X-T5: Highlights and Shadows −2 to +4 (½ steps); Color, Sharpne
 ### 3f. Validate with a test shot when possible
 Shoot one frame in similar light, then compare:
 ```sh
-python3 .claude/skills/photo-style-guide/analyze_reference.py ref.jpg my-test.jpg --crop ...
+python3 skills/photo-style-guide/analyze_reference.py ref.jpg my-test.jpg --crop ...
 ```
 Move one setting at a time to shrink the reported differences, then mark the changed lines `tested`. If no test shot exists, say "untested" in the guide.
 
