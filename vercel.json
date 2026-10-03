@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/images/:path*", "destination": "/clear-water-bay/images/:path*", "permanent": true },
+    { "source": "/research-notes.md", "destination": "/clear-water-bay/research-notes.md", "permanent": true },
+    { "source": "/image-sources.json", "destination": "/clear-water-bay/image-sources.json", "permanent": true }
+  ]
+}
