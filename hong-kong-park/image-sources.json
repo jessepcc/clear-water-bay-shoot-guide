@@ -310,5 +310,303 @@
     "public_reference_checked": "2026-10-31",
     "popularity": null,
     "status": "Published natural-light adult professional portraits. Mixed Hong Kong Park/Cheung Kong Park/Chater Garden locations; individual frames and dates unspecified. Linked only."
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-water-frame-real.jpg",
+    "source_page": "https://www.wonederlust.com/hong-kong",
+    "source_image": "https://images.squarespace-cdn.com/content/v1/5a5a32bface864067d391bd9/1546553369168-INQBM6W0SCCPSB408XKH/20181208_154408.jpg",
+    "source_caption": "水簾開口，把人框在中間",
+    "credit": "WONEDERLUST 官方旅遊頁／Instagram @wonederlust",
+    "platform_post_or_account": "https://www.instagram.com/wonederlust/",
+    "published": "date unknown; image filename suggests 2018-12-08, not independently verified",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "d5dbff0a8a7ad504bc20d1bc32af64dbd7571f2338cacd882a0ceda59e229cd5",
+    "width": 700,
+    "height": 1244
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-ig-waterfall-turn.jpg",
+    "source_page": "https://hk.ulifestyle.com.hk/activity/detail/20011013/",
+    "source_image": "https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2023/06/20230602162133_bafaa00e63318cbc45c6f78c97da9062bbb69784.jpg",
+    "source_caption": "瀑布前，轉身望向水",
+    "credit": "IG @thehkcouple，UHK 公開引用",
+    "platform_post_or_account": "https://www.instagram.com/thehkcouple/",
+    "published": "2023-06-03 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "2b5862a45bdbe5ed2b1b73f4215d9fe8ab6df720ed49bc36fce6049c4dcf79e1",
+    "width": 1080,
+    "height": 1349
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-ig-rock-opening.jpg",
+    "source_page": "https://hk.ulifestyle.com.hk/activity/detail/20011013/",
+    "source_image": "https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2023/06/20230602162132_f72be39167190186bc73d2e600790e5522b0ea6e.jpg",
+    "source_caption": "岩洞開口，停一步",
+    "credit": "IG @thehkcouple，UHK 公開引用",
+    "platform_post_or_account": "https://www.instagram.com/thehkcouple/",
+    "published": "2023-06-03 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "65848b7b17203b1b435e25817b89dfd59e74c69d7d9aa292b0b3c9f414f83def",
+    "width": 1080,
+    "height": 1349
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-ig-white-corridor.jpg",
+    "source_page": "https://hk.ulifestyle.com.hk/activity/detail/20011013/",
+    "source_image": "https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2023/06/20230602162134_1af8c1229c2cff294be1850c428350c450110e53.jpg",
+    "source_caption": "白柱之間，輕輕靠近",
+    "credit": "IG @thehkcouple，UHK 公開引用",
+    "platform_post_or_account": "https://www.instagram.com/thehkcouple/",
+    "published": "2023-06-03 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "52908976e0fc4f5b9d82f0378ed4e61634b9682ae5b8bb1a8e9038c6e04e5d0f",
+    "width": 1080,
+    "height": 1346
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-ig-katy-side.jpg",
+    "source_page": "https://www.am730.com.hk/article/1026298",
+    "source_image": "https://cdn3.am730.com.hk/processed/2026-04/1026298/block/singleImage/3062601/df/01KPSJ5MDV1B4RVXNPP97T3TA5.jpg?updatedAt=1776827035",
+    "source_caption": "側身站，手臂輕抬",
+    "credit": "龔嘉欣 @kungkaty，am730 公開引用；攝影者未公布",
+    "platform_post_or_account": "https://www.instagram.com/kungkaty/",
+    "published": "2026-04-22 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "4207b6a4fbfdb062c9910f7e28725ee9bc0d6f9235994661442f9e7274a8b64b",
+    "width": 1140,
+    "height": 1776
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-ig-katy-seat.jpg",
+    "source_page": "https://www.am730.com.hk/article/1026298",
+    "source_image": "https://cdn3.am730.com.hk/processed/2026-04/1026298/block/multiple_image/3062603/df/01KPSJ701SFT134R4KRQDFFF36.jpg?updatedAt=1776827035",
+    "source_caption": "坐下，眼神望向旁邊",
+    "credit": "龔嘉欣 @kungkaty，am730 公開引用；攝影者未公布",
+    "platform_post_or_account": "https://www.instagram.com/kungkaty/",
+    "published": "2026-04-22 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "ef58b8a825e263ba3750d5c9b38318b00c443f0bfc13718207d4b50850d8f9e8",
+    "width": 1179,
+    "height": 1634
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-xhs-water-axis.webp",
+    "source_page": "https://hk.ulifestyle.com.hk/activity/detail/20064146/",
+    "source_image": "https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/05/20250509174523_00b67fb4c55eb08a3b586dd5614017b90a884f66.webp",
+    "source_caption": "水流中軸，白牆與綠葉",
+    "credit": "UHK 引用小紅書圖輯；文章列 @笨笨不笨、@小太阳timing，未逐張歸屬",
+    "platform_post_or_account": "https://www.xiaohongshu.com/explore/670a40cf000000002401745c",
+    "published": "2025-05-11 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "070d1ed3813e0a7de2d27e659ff8a7b8f9865b40f997ab34adfd60323c9b8610",
+    "width": 1080,
+    "height": 1620
+  },
+  {
+    "type": "public-reference",
+    "file": "images/ref-xhs-lake-frame.webp",
+    "source_page": "https://hk.ulifestyle.com.hk/activity/detail/20064146/",
+    "source_image": "https://resource02.ulifestyle.com.hk/ulcms/content/article/image/w1280/2025/05/20250509174524_dea0206ac7295427b9c78d576a7fdf914f4fd1df.webp",
+    "source_caption": "樹葉前景，水面留白",
+    "credit": "UHK 引用小紅書圖輯；文章列 @笨笨不笨、@小太阳timing，未逐張歸屬",
+    "platform_post_or_account": "https://www.xiaohongshu.com/explore/670a40cf000000002401745c",
+    "published": "2025-05-11 (article; photo date unknown)",
+    "public_reference_checked": "2026-10-31",
+    "license": "Copyright retained by original creator/publisher; public reference preview, no general reuse license claimed",
+    "modifications": "None; exact source-served bytes retained, including watermarks",
+    "purpose": "Visual pose/composition inspiration, explicitly requested by user; not AI input and not popularity evidence",
+    "popularity": null,
+    "sha256": "3e570056e5c2f1d8577fd6c2268cddcafe1d2611b08ea069daf3eaed3d2f4ca0",
+    "width": 1080,
+    "height": 1620
+  },
+  {
+    "type": "real-scene",
+    "file": "images/scene-water-frame-entry.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Park_1.JPG",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Hong_Kong_Park_1.JPG/960px-Hong_Kong_Park_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "source_caption": "香港公園環形水簾入口、中央柱、圓凳與看台",
+    "credit": "HK Arun",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "date_taken": "2011-01-20 15:04 (EXIF; camera clock not independently verified)",
+    "public_reference_checked": "2026-10-31",
+    "purpose": "Architecture/entry/platform geometry for water-frame poses; January/February capture is not November seasonal-colour evidence",
+    "modifications": "None; source-served preview bytes retained",
+    "sha256": "98b5839f650ddbbac5faa9e6e5abc91359d67fb524a2ea1baefdfb4afd71c89a",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "type": "real-scene",
+    "file": "images/scene-water-frame-platform.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%E7%B4%8D%E6%B6%BC_%2816734599015%29.jpg",
+    "source_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/%E7%B4%8D%E6%B6%BC_%2816734599015%29.jpg/960px-%E7%B4%8D%E6%B6%BC_%2816734599015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "source_caption": "香港公園環形水簾入口、中央柱、圓凳與看台",
+    "credit": "Thomas Au",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "date_taken": "2015-02-28 16:44",
+    "public_reference_checked": "2026-10-31",
+    "purpose": "Architecture/entry/platform geometry for water-frame poses; January/February capture is not November seasonal-colour evidence",
+    "modifications": "None; source-served preview bytes retained",
+    "sha256": "99a0c207b6de47e6e31195c30c8a7246de3d5d414094295e18d9aa970d91ad17",
+    "width": 960,
+    "height": 757
+  },
+  {
+    "type": "ai-concept",
+    "file": "images/concept-water-frame-stand.png",
+    "generator": "image_gen.imagegen; model version not exposed by tool",
+    "generated": "2026-10-31",
+    "base_image": [
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Park_1.JPG",
+        "license": "CC BY-SA 3.0",
+        "credit": "HK Arun"
+      },
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E7%B4%8D%E6%B6%BC_%2816734599015%29.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Thomas Au"
+      }
+    ],
+    "license": "CC BY-SA 4.0 (derivative of CC BY-SA 3.0 and CC BY 2.0 inputs)",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "prompt": "Create a realistic photographic shoot-planning diptych, exactly TWO vertical portraits side by side, no typography or text. The two supplied photos show the SAME REAL circular water-curtain pavilion in Hong Kong Park. Use them to preserve its exact architecture: curved silver metal roof rim, glass canopy with triangular steel braces, pale center support column, existing low circular tiled seat around the column, circular small-square-tiled WALKABLE platform, pale blue-green water pool around it, and straight low square-tiled entrance stepping blocks. There is a real GAP in the falling water at the entrance; this opening creates a WATER FRAME on the left and right of a subject who stands BACK ON THE WALKABLE INNER PLATFORM, never in water or on a wet narrow edge. Camera is on the public outer pavement looking through that gap, with the two streams of falling water at the lateral image edges, clear subject face in the center. Do not turn it into a rectangular waterfall, add an arch or create dry land filling the pool. Keep the central column and roof braces wherever the angle includes them. Background real white urban buildings and trees remain plausible, no fantasy jungle. Replace foreground visitors from source with ONE fictional adult East Asian woman in her twenties per panel; no existing person's likeness. Cream cotton blouse, pale blue midi skirt, simple flat shoes; dark shoulder-length hair. Fresh subtle natural portrait colours and soft sky light, no golden beams, no mist over face, no glow, no studio flash. Preserve ordinary skin texture and anatomy. These are conceptual viewpoints using the actual pavilion geometry, no claim of a current visit or crowd-free access. LEFT: 35mm-equivalent lens, chest-height camera, approximately 3m to model, full body on the inner platform just inside the entrance gap, shoulders relaxed and turned 15 degrees, hands loosely together below waist, weight on rear foot, looking at camera with a tiny relaxed smile. Keep roof triangle above her with breathing room and both water curtains as a balanced frame. RIGHT: same entrance framing, 35mm equivalent camera approximately 3m away, three-quarter figure, body turned 45 degrees, profile looking toward camera-left falling water while fingers gently hold own bag strap. A calm side profile, no reaching into the stream. Both feet planted safely on the existing inner platform, no one standing on entrance stepping blocks.",
+    "fact_sheet": {
+      "geometry": "Actual curved roof, triangular glass/steel braces, pale central support, circular bench, tiled inner platform, gap between two falling water curtains and tiled entrance blocks. Camera outside on public pavement.",
+      "light": "Soft sky light/open shade branch. Not weather forecast or guarantee of light.",
+      "subject": "Fictional adult woman in cream blouse and pale blue skirt. No model identity supplied.",
+      "camera": "Planned 23mm APS-C ~35mm-equivalent or 75mm APS-C ~112.5mm-equivalent; 3m environmental / 4.5m close-up approximate, subject/framing dependent.",
+      "season": "Historical 2011 January / 2015 February architecture plus existing November 2022 exterior season evidence. Not a vegetation forecast."
+    },
+    "review": {
+      "geometry": "Compared to both licensed bases. Recognizable roof opening, central column, bench, entrance stepping blocks and circular platform retained; illustrative geometry only.",
+      "person": "Fictional adult, normal visible hands/limbs; no running, jumping, swimming or standing under falling stream. Standing examples near entry are a framing aid; guide directs model further inside platform and keeps entrance clear.",
+      "light": "Plausible diffuse sky light, no invented sunset beams.",
+      "lens": "Wide pose vs tight portrait distinguished; not an EXIF calibration.",
+      "colour": "Visually natural greens; numeric foliage check stored in water-frame-measurements.txt; not a recipe target."
+    },
+    "rejected_variants": 0,
+    "modifications": "AI-generated adult figure and viewpoints from licensed scene inputs; original PNG copied unchanged to retain all available provenance metadata",
+    "sha256": "f6c8cbf9459a2d3f90a6fd252528fdc5c9cff31ee37b64b1b6c6637b144a4d4d",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "type": "ai-concept",
+    "file": "images/concept-water-frame-close.png",
+    "generator": "image_gen.imagegen; model version not exposed by tool",
+    "generated": "2026-10-31",
+    "base_image": [
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Park_1.JPG",
+        "license": "CC BY-SA 3.0",
+        "credit": "HK Arun"
+      },
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E7%B4%8D%E6%B6%BC_%2816734599015%29.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Thomas Au"
+      }
+    ],
+    "license": "CC BY-SA 4.0 (derivative of CC BY-SA 3.0 and CC BY 2.0 inputs)",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "prompt": "Create a realistic photographic shoot-planning diptych, exactly TWO vertical portraits side by side, no typography or text. The two supplied photos show the SAME REAL circular water-curtain pavilion in Hong Kong Park. Use them to preserve its exact architecture: curved silver metal roof rim, glass canopy with triangular steel braces, pale center support column, existing low circular tiled seat around the column, circular small-square-tiled WALKABLE platform, pale blue-green water pool around it, and straight low square-tiled entrance stepping blocks. There is a real GAP in the falling water at the entrance; this opening creates a WATER FRAME on the left and right of a subject who stands BACK ON THE WALKABLE INNER PLATFORM, never in water or on a wet narrow edge. Camera is on the public outer pavement looking through that gap, with the two streams of falling water at the lateral image edges, clear subject face in the center. Do not turn it into a rectangular waterfall, add an arch or create dry land filling the pool. Keep the central column and roof braces wherever the angle includes them. Background real white urban buildings and trees remain plausible, no fantasy jungle. Replace foreground visitors from source with ONE fictional adult East Asian woman in her twenties per panel; no existing person's likeness. Cream cotton blouse, pale blue midi skirt, simple flat shoes; dark shoulder-length hair. Fresh subtle natural portrait colours and soft sky light, no golden beams, no mist over face, no glow, no studio flash. Preserve ordinary skin texture and anatomy. These are conceptual viewpoints using the actual pavilion geometry, no claim of a current visit or crowd-free access. LEFT: 112.5mm-equivalent lens (Fuji75 APS-C), camera approximately 4.5m away on outer pavement, close waist-up portrait framed by out-of-focus white water curtains at far left/right, woman turned 20 degrees, one hand lightly tucking her hair behind her ear, looking at camera, relaxed smile. Make the nearest eye sharply visible and not hidden by water. RIGHT: 35mm-equivalent lens, approximately 3m, three-quarter figure planted on the inner platform, one palm raised loosely AT WAIST HEIGHT toward the water but clearly still 20cm or more away, watching sparkling spray, other hand down, fresh amused smile. Hands normal, no drinking water or touching face. Keep water opening and both sides of the curved canopy visible, no invented rectangular waterfall.",
+    "fact_sheet": {
+      "geometry": "Actual curved roof, triangular glass/steel braces, pale central support, circular bench, tiled inner platform, gap between two falling water curtains and tiled entrance blocks. Camera outside on public pavement.",
+      "light": "Soft sky light/open shade branch. Not weather forecast or guarantee of light.",
+      "subject": "Fictional adult woman in cream blouse and pale blue skirt. No model identity supplied.",
+      "camera": "Planned 23mm APS-C ~35mm-equivalent or 75mm APS-C ~112.5mm-equivalent; 3m environmental / 4.5m close-up approximate, subject/framing dependent.",
+      "season": "Historical 2011 January / 2015 February architecture plus existing November 2022 exterior season evidence. Not a vegetation forecast."
+    },
+    "review": {
+      "geometry": "Compared to both licensed bases. Recognizable roof opening, central column, bench, entrance stepping blocks and circular platform retained; illustrative geometry only.",
+      "person": "Fictional adult, normal visible hands/limbs; no running, jumping, swimming or standing under falling stream. Standing examples near entry are a framing aid; guide directs model further inside platform and keeps entrance clear.",
+      "light": "Plausible diffuse sky light, no invented sunset beams.",
+      "lens": "Wide pose vs tight portrait distinguished; not an EXIF calibration.",
+      "colour": "Visually natural greens; numeric foliage check stored in water-frame-measurements.txt; not a recipe target."
+    },
+    "rejected_variants": 0,
+    "modifications": "AI-generated adult figure and viewpoints from licensed scene inputs; original PNG copied unchanged to retain all available provenance metadata",
+    "sha256": "32b6dca91d91c81f5b5f6f1d0532f48dacc34ec04d66159287340d65acb622ad",
+    "width": 1448,
+    "height": 1086
+  },
+  {
+    "type": "ai-concept",
+    "file": "images/concept-water-frame-seat.png",
+    "generator": "image_gen.imagegen; model version not exposed by tool",
+    "generated": "2026-10-31",
+    "base_image": [
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Park_1.JPG",
+        "license": "CC BY-SA 3.0",
+        "credit": "HK Arun"
+      },
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:%E7%B4%8D%E6%B6%BC_%2816734599015%29.jpg",
+        "license": "CC BY 2.0",
+        "credit": "Thomas Au"
+      }
+    ],
+    "license": "CC BY-SA 4.0 (derivative of CC BY-SA 3.0 and CC BY 2.0 inputs)",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "prompt": "Create a realistic photographic shoot-planning diptych, exactly TWO vertical portraits side by side, no typography or text. The two supplied photos show the SAME REAL circular water-curtain pavilion in Hong Kong Park. Use them to preserve its exact architecture: curved silver metal roof rim, glass canopy with triangular steel braces, pale center support column, existing low circular tiled seat around the column, circular small-square-tiled WALKABLE platform, pale blue-green water pool around it, and straight low square-tiled entrance stepping blocks. There is a real GAP in the falling water at the entrance; this opening creates a WATER FRAME on the left and right of a subject who stands BACK ON THE WALKABLE INNER PLATFORM, never in water or on a wet narrow edge. Camera is on the public outer pavement looking through that gap, with the two streams of falling water at the lateral image edges, clear subject face in the center. Do not turn it into a rectangular waterfall, add an arch or create dry land filling the pool. Keep the central column and roof braces wherever the angle includes them. Background real white urban buildings and trees remain plausible, no fantasy jungle. Replace foreground visitors from source with ONE fictional adult East Asian woman in her twenties per panel; no existing person's likeness. Cream cotton blouse, pale blue midi skirt, simple flat shoes; dark shoulder-length hair. Fresh subtle natural portrait colours and soft sky light, no golden beams, no mist over face, no glow, no studio flash. Preserve ordinary skin texture and anatomy. These are conceptual viewpoints using the actual pavilion geometry, no claim of a current visit or crowd-free access. LEFT: 35mm-equivalent lens, camera approximately 3m away aimed through entrance gap, adult woman sitting naturally on the EXISTING low circular tiled bench around the real central support column (visible in both references), NOT on pool rim, NOT on stepping stones. Three-quarter sideways seated pose, both feet resting on inner walkable platform, knees together angled camera-left, hands loosely on lap, face turned gently toward bright opening. Both lateral water streams frame the view; central support exists behind her. RIGHT: 112.5mm-equivalent lens from outer pavement approximately 4.5m away, woman STANDING on inner circular platform facing three-quarters away from camera, one hand holding own small bag, head slowly turned back over shoulder toward camera; relaxed neck and a tiny smile. Waist-up frame, water softly at both frame edges, eyes unobscured. Pose stationary, never running or jumping.",
+    "fact_sheet": {
+      "geometry": "Actual curved roof, triangular glass/steel braces, pale central support, circular bench, tiled inner platform, gap between two falling water curtains and tiled entrance blocks. Camera outside on public pavement.",
+      "light": "Soft sky light/open shade branch. Not weather forecast or guarantee of light.",
+      "subject": "Fictional adult woman in cream blouse and pale blue skirt. No model identity supplied.",
+      "camera": "Planned 23mm APS-C ~35mm-equivalent or 75mm APS-C ~112.5mm-equivalent; 3m environmental / 4.5m close-up approximate, subject/framing dependent.",
+      "season": "Historical 2011 January / 2015 February architecture plus existing November 2022 exterior season evidence. Not a vegetation forecast."
+    },
+    "review": {
+      "geometry": "Compared to both licensed bases. Recognizable roof opening, central column, bench, entrance stepping blocks and circular platform retained; illustrative geometry only.",
+      "person": "Fictional adult, normal visible hands/limbs; no running, jumping, swimming or standing under falling stream. Standing examples near entry are a framing aid; guide directs model further inside platform and keeps entrance clear.",
+      "light": "Plausible diffuse sky light, no invented sunset beams.",
+      "lens": "Wide pose vs tight portrait distinguished; not an EXIF calibration.",
+      "colour": "Visually natural greens; numeric foliage check stored in water-frame-measurements.txt; not a recipe target."
+    },
+    "rejected_variants": 0,
+    "modifications": "AI-generated adult figure and viewpoints from licensed scene inputs; original PNG copied unchanged to retain all available provenance metadata",
+    "sha256": "164da536149b87787e11e01b2d0fcc48399adc23c8223db65d9004fa26018a47",
+    "width": 1448,
+    "height": 1086
   }
 ]
