@@ -4,6 +4,7 @@ Mobile-first, static Chinese-language field guides for portrait shoots, one per 
 
 | Guide | Folder | Shoot date | Live |
 | --- | --- | --- | --- |
+| 香港公園 · 把清新拍得自然（單人女生人像、圓形水簾／白橋／溫室） | [`hong-kong-park/`](hong-kong-park/) | 2026-11-08，建議 13:30–17:15 | https://clearwater-bay-shoot-guide.vercel.app/hong-kong-park/ |
 | 维港 · 蓝调飞灯与城市人像 (Victoria Harbour dusk-to-night, one-light portraits) | [`victoria-night/`](victoria-night/) | 日期未定，17:00–19:00 | https://clearwater-bay-shoot-guide.vercel.app/victoria-night/ |
 | 清水湾 · 海滩 × 大坑墩 (Clear Water Bay beaches and Tai Hang Tun grassland) | [`clear-water-bay/`](clear-water-bay/) | 2026-10-03 | https://clearwater-bay-shoot-guide.vercel.app/clear-water-bay/ |
 
@@ -19,6 +20,7 @@ skills/             Agent skills (Agent Skills format), listed in AGENTS.md
 vercel.json         Trailing-slash redirects and redirects from pre-reorganisation URLs
 clear-water-bay/    One folder per guide: index.html, images/, research notes, image sources
 victoria-night/     X-T5 + 23mm / 75mm + iT32 / X5; CTO, off-camera flash and dusk-to-night shots
+hong-kong-park/     2026-11-08 fresh portraits; real scenes, AI concepts, social-source checks, reflector / iT32 guidance
 ```
 
 ## Run locally
