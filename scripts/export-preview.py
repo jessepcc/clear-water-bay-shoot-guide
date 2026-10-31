@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://clearwater-bay-shoot-guide.vercel.app/"
+SITE = "https://jessepcc.github.io/clear-water-bay-shoot-guide/"
 
 
 class Preview(HTMLParser):

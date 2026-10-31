@@ -1,14 +1,14 @@
 # 外拍现场指南 · Shoot field guides
 
-Mobile-first, static Chinese-language field guides for portrait shoots, one per location. The site root lists every guide; each guide lives in its own folder and is served at `/<slug>/`.
+Mobile-first, static Chinese-language field guides for portrait shoots, one per location. The site root lists every guide; each guide lives in its own folder beneath the site base URL, https://jessepcc.github.io/clear-water-bay-shoot-guide/.
 
 | Guide | Folder | Shoot date | Live |
 | --- | --- | --- | --- |
-| 香港公園 · 把清新拍得自然（單人女生人像、圓形水簾／白橋／溫室） | [`hong-kong-park/`](hong-kong-park/) | 2026-11-08，建議 13:30–17:15 | https://clearwater-bay-shoot-guide.vercel.app/hong-kong-park/ |
-| 维港 · 蓝调飞灯与城市人像 (Victoria Harbour dusk-to-night, one-light portraits) | [`victoria-night/`](victoria-night/) | 日期未定，17:00–19:00 | https://clearwater-bay-shoot-guide.vercel.app/victoria-night/ |
-| 清水湾 · 海滩 × 大坑墩 (Clear Water Bay beaches and Tai Hang Tun grassland) | [`clear-water-bay/`](clear-water-bay/) | 2026-10-03 | https://clearwater-bay-shoot-guide.vercel.app/clear-water-bay/ |
+| 香港公園 · 把清新拍得自然（單人女生人像、圓形水簾／白橋／溫室） | [`hong-kong-park/`](hong-kong-park/) | 2026-11-08，建議 13:30–17:15 | https://jessepcc.github.io/clear-water-bay-shoot-guide/hong-kong-park/ |
+| 维港 · 蓝调飞灯与城市人像 (Victoria Harbour dusk-to-night, one-light portraits) | [`victoria-night/`](victoria-night/) | 日期未定，17:00–19:00 | https://jessepcc.github.io/clear-water-bay-shoot-guide/victoria-night/ |
+| 清水湾 · 海滩 × 大坑墩 (Clear Water Bay beaches and Tai Hang Tun grassland) | [`clear-water-bay/`](clear-water-bay/) | 2026-10-03 | https://jessepcc.github.io/clear-water-bay-shoot-guide/clear-water-bay/ |
 
-The repository and Vercel project keep their original Clear Water Bay names; they host every guide.
+The repository keeps its original Clear Water Bay name; it hosts every guide.
 
 ## Layout
 
@@ -16,6 +16,7 @@ The repository and Vercel project keep their original Clear Water Bay names; the
 index.html          Guide index at the site root: one card per guide, newest first
 assets/guide.css    Shared design system for the index and every guide
 assets/guide.js     Shared behaviour: scene tabs, reference filters, image lightbox
+.nojekyll           Publish the static files directly on GitHub Pages
 skills/             Agent skills (Agent Skills format), listed in AGENTS.md
 vercel.json         Trailing-slash redirects and redirects from pre-reorganisation URLs
 clear-water-bay/    One folder per guide: index.html, images/, research notes, image sources
@@ -31,7 +32,7 @@ No package installation or build is needed. From this checkout:
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8000/ for the index and http://127.0.0.1:8000/clear-water-bay/ for a guide. Guide pages use relative paths (`images/…`, `../assets/…`), so a guide URL must end with `/`; both Python's server and the `trailingSlash` setting in `vercel.json` redirect `/<slug>` to `/<slug>/`.
+Open http://127.0.0.1:8000/ for the index and http://127.0.0.1:8000/clear-water-bay/ for a guide. Guide pages use relative paths (`images/…`, `../assets/…`), so they also work beneath GitHub Pages' `/clear-water-bay-shoot-guide/` project prefix. Open guide URLs with their trailing `/`.
 
 Run the server from the **repository root**, not a guide folder. Serving only `victoria-night/` makes `/assets/guide.css` and `/assets/guide.js` unavailable. Use a browser to view the served site. The Codex file tab may display HTML source as text instead of rendering a webpage; that is a viewer limitation, not a CSS failure.
 
@@ -41,7 +42,7 @@ For a downloadable HTML copy to open in a web browser, generate a self-contained
 python3 scripts/export-preview.py victoria-night --output /tmp/victoria-night-preview.html
 ```
 
-The export embeds shared CSS, JavaScript and original image bytes without changing the canonical guide. Download it and open it in a browser; it does **not** make an HTML source-only file viewer render a webpage. In-page controls work offline; links to other site pages and research files point to the website and require those pages to be deployed. For review within a file viewer, provide rendered PNG or PDF exports instead. Keep generated exports outside the repository; Vercel should publish the canonical site.
+The export embeds shared CSS, JavaScript and original image bytes without changing the canonical guide. Download it and open it in a browser; it does **not** make an HTML source-only file viewer render a webpage. In-page controls work offline; links to other site pages and research files point to GitHub Pages and require those pages to be deployed. For review within a file viewer, provide rendered PNG or PDF exports instead. Keep generated exports outside the repository; publish the canonical site files.
 
 ## Add a guide
 
@@ -53,6 +54,8 @@ The export embeds shared CSS, JavaScript and original image bytes without changi
 
 ## Deploy
 
-The existing Vercel project serves this static repository and is connected to GitHub `main`. Publishing a commit to `main` triggers its production deployment at https://clearwater-bay-shoot-guide.vercel.app/. No build command, API keys, backend services, or framework configuration are required; `vercel.json` only configures URL redirects.
+GitHub Pages publishes the root (`/`) of the `main` branch at https://jessepcc.github.io/clear-water-bay-shoot-guide/. In repository **Settings → Pages**, the publishing source is **Deploy from a branch → main → / (root)**. Publishing a commit to `main` triggers the built-in Pages deployment. The root `.nojekyll` marker disables Jekyll processing, preserving the HTML, images, JavaScript and source records as static files. No build command, extra workflow file, API keys or backend services are required.
 
-Until the reorganisation, the site root was the Clear Water Bay guide, and its old links still work. The index page forwards section links such as `/#reflib` to `/clear-water-bay/#reflib`, and `vercel.json` redirects `/images/*`, `/research-notes.md` and `/image-sources.json` to the guide folder. Keep those root paths unused.
+Use relative links for site navigation and assets so the project prefix stays intact. The index forwards its old section links (for example `#reflib`) to `clear-water-bay/#reflib` within the current host and project prefix.
+
+The existing Vercel integration remains available at https://clearwater-bay-shoot-guide.vercel.app/. Its `vercel.json` redirects from the pre-reorganisation `/images/*`, `/research-notes.md` and `/image-sources.json` URLs apply only on Vercel; GitHub Pages does not read that configuration. Guide-folder URLs and shared assets work on both hosts. Mainland-China connectivity to GitHub Pages can still vary by network.

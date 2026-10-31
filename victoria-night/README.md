@@ -2,7 +2,7 @@
 
 Chinese field guide for a young adult East Asian female model at Tsim Sha Tsui,17:00–19:00, with X-T5,23mm,75mm and one iT32/X5. Only full/half CTO and the included small diffuser are assumed. Shoot date is unknown; **2026-10-03 is a labelled timing example**, with a sunset-relative schedule and seasonal comparisons.
 
-Production URL: https://clearwater-bay-shoot-guide.vercel.app/victoria-night/ . The existing GitHub-to-Vercel integration publishes commits on `main`.
+Production URL: https://jessepcc.github.io/clear-water-bay-shoot-guide/victoria-night/ . GitHub Pages publishes the root of `main`; see [the main README](../README.md).
 
 Includes step-by-step first-use Godox operations checked against the official manual, realistic on-camera/photographer-held/model-held options, six creative setups, three dated real harbour scene photos, four official female portrait references with dated popularity evidence or editorial labels, full untested X-T5 recipes, a credited Strobist technical comparison and three abstract diagrams. Original image bytes and marks are preserved.
 

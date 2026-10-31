@@ -1,6 +1,6 @@
 # 清水湾女生外拍现场指南
 
-Live at https://clearwater-bay-shoot-guide.vercel.app/clear-water-bay/.
+Live at https://jessepcc.github.io/clear-water-bay-shoot-guide/clear-water-bay/.
 
 A mobile-first, static Chinese-language field guide for Clear Water Bay beaches and the Tai Hang Tun country-park grassland, prepared for a 2026-10-03 shoot with the Fujifilm X-T5, Fujinon XF 23mm F1.4 and Viltrox AF 75mm F1.2.
 

@@ -2,6 +2,8 @@
 
 2026-11-08（星期日），建議13:30–17:15。X-T5、XF23mm F1.4 WR、Viltrox75mm F1.2；Godox iT32/X5-F可選。
 
+Live: https://jessepcc.github.io/clear-water-bay-shoot-guide/hong-kong-park/
+
 從repository root運行`python3 -m http.server 8000 --bind 127.0.0.1`，開http://127.0.0.1:8000/hong-kong-park/。
 
 - [指南](index.html)：8張真照參考、6個新水框Pose（AI示意）、原有8個方案、2套完整富士配方、反光板與閃燈判斷。
