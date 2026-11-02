@@ -1,6 +1,8 @@
 # 香港公園 · 清新女生人像
 
-2026-11-08（星期日），建議13:30–17:15。X-T5、XF23mm F1.4 WR、Viltrox75mm F1.2；Godox iT32/X5-F可選。
+2026-11-08（星期日），11:00太古廣場集合，14:20停拍、14:30前收工。X-T5、XF23mm F1.4 WR、Viltrox75mm F1.2；Godox iT32/X5-F可選。
+
+主線：水框 → 白橋 → 小休 → 溫室／樹蔭。13:10後可改去亞洲協會，替換溫室段；附3張可放大的真實場景照片與姿勢建議。私人輕裝人像拍攝規定尚待中心確認，不把正式場地申請文件當作遊客拍照的確定規則。
 
 Live: https://jessepcc.github.io/clear-water-bay-shoot-guide/hong-kong-park/
 

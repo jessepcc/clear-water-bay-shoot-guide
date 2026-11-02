@@ -4,7 +4,7 @@ Mobile-first, static Chinese-language field guides for portrait shoots, one per 
 
 | Guide | Folder | Shoot date | Live |
 | --- | --- | --- | --- |
-| 香港公園 · 把清新拍得自然（單人女生人像、圓形水簾／白橋／溫室） | [`hong-kong-park/`](hong-kong-park/) | 2026-11-08，建議 13:30–17:15 | https://jessepcc.github.io/clear-water-bay-shoot-guide/hong-kong-park/ |
+| 香港公園 · 把清新拍得自然（圓形水簾／白橋／溫室，亞洲協會可選） | [`hong-kong-park/`](hong-kong-park/) | 2026-11-08，11:00 太古廣場集合，14:30 前收工 | https://jessepcc.github.io/clear-water-bay-shoot-guide/hong-kong-park/ |
 | 维港 · 蓝调飞灯与城市人像 (Victoria Harbour dusk-to-night, one-light portraits) | [`victoria-night/`](victoria-night/) | 日期未定，17:00–19:00 | https://jessepcc.github.io/clear-water-bay-shoot-guide/victoria-night/ |
 | 清水湾 · 海滩 × 大坑墩 (Clear Water Bay beaches and Tai Hang Tun grassland) | [`clear-water-bay/`](clear-water-bay/) | 2026-10-03 | https://jessepcc.github.io/clear-water-bay-shoot-guide/clear-water-bay/ |
 
