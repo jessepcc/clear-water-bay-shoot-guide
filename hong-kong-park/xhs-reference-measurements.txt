@@ -1,0 +1,267 @@
+2026-11-05 — user-selected Xiaohongshu source-served H5 reference previews
+Exact original previews/watermarks retained in images/. Crops are only analysis windows; no published image was edited.
+Full collage statistics mix scenes and include watermark; use individual panel/crop statistics for interpretation. Manual visual crops are approximate, not a calibrated colour chart.
+This update adds pose/light guidance; C1/C2 remain untested suggestions, not the source photographers' settings or a calibrated colour match.
+
+X1 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-profile.jpg (1080x1440, 120000 sampled px)
+  Lightness L* percentiles: p0.5=4  p5=7  p25=21  p50=52  p75=79  p95=95  p99.5=96
+  crushed 0.0%  clipped 0.1%  contrast(p95-p5) 88
+  shadows     27.5% of frame  a*=  +3.4 (green-/magenta+)  b*=  -5.0 (blue-/yellow+)
+  midtones    43.8% of frame  a*= -14.5 (green-/magenta+)  b*=  +6.5 (blue-/yellow+)
+  highlights  28.7% of frame  a*=  -3.6 (green-/magenta+)  b*=  +7.1 (blue-/yellow+)
+  chroma median 18.7  p90 32.0  coloured px 45%
+  hue share of coloured px: yellow 5%, green 64%, cyan 14%, blue 2%, purple/magenta 14%
+  Observations:
+   - Tonal spread p5-p95 = 88 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Shadows lean cool/blue (a*=+3.4, b*=-5.0). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Midtones lean warm/yellow + green (a*=-14.5, b*=+6.5). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Highlights lean warm/yellow (a*=-3.6, b*=+7.1). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Split tone: highlights warmer than shadows. Characteristic of Classic Neg. / Nostalgic Neg. (amber highlights) or of warm light with cool skylight in shadows.
+   - Chroma median 19, p90 32 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: upper photo only; excludes central watermark normalized crop (0, 0, 1, 0.39)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-profile.jpg (1080x1440, 83200 sampled px)
+  Lightness L* percentiles: p0.5=7  p5=9  p25=34  p50=58  p75=78  p95=93  p99.5=96
+  crushed 0.0%  clipped 0.1%  contrast(p95-p5) 83
+  shadows     20.8% of frame  a*=  +1.7 (green-/magenta+)  b*=  +0.4 (blue-/yellow+)
+  midtones    48.4% of frame  a*= -21.7 (green-/magenta+)  b*= +13.1 (blue-/yellow+)
+  highlights  30.9% of frame  a*= -10.4 (green-/magenta+)  b*= +14.9 (blue-/yellow+)
+  chroma median 28.4  p90 33.6  coloured px 62%
+  hue share of coloured px: yellow 2%, green 92%, cyan 6%
+  Observations:
+   - Tonal spread p5-p95 = 83 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow + green (a*=-21.7, b*=+13.1). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Highlights lean warm/yellow + green (a*=-10.4, b*=+14.9). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Split tone: highlights warmer than shadows. Characteristic of Classic Neg. / Nostalgic Neg. (amber highlights) or of warm light with cool skylight in shadows.
+   - Chroma median 28, p90 34 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: lower photo only; excludes central watermark normalized crop (0, 0.53, 1, 1)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-profile.jpg (1080x1440, 100400 sampled px)
+  Lightness L* percentiles: p0.5=4  p5=6  p25=14  p50=41  p75=69  p95=95  p99.5=96
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 89
+  shadows     39.8% of frame  a*=  +4.1 (green-/magenta+)  b*=  -7.2 (blue-/yellow+)
+  midtones    40.1% of frame  a*= -11.2 (green-/magenta+)  b*=  +6.4 (blue-/yellow+)
+  highlights  20.1% of frame  a*=  +1.3 (green-/magenta+)  b*=  +3.0 (blue-/yellow+)
+  chroma median 16.0  p90 28.3  coloured px 34%
+  hue share of coloured px: orange/skin 1%, yellow 11%, green 41%, cyan 31%, blue 1%, purple/magenta 14%
+  Observations:
+   - Tonal spread p5-p95 = 89 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Shadows lean cool/blue (a*=+4.1, b*=-7.2). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Midtones lean warm/yellow + green (a*=-11.2, b*=+6.4). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Split tone: highlights warmer than shadows. Characteristic of Classic Neg. / Nostalgic Neg. (amber highlights) or of warm light with cool skylight in shadows.
+   - Chroma median 16, p90 28 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: upper cheek visual crop normalized crop (0.48, 0.1, 0.54, 0.14)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-profile.jpg (1080x1440, 3705 sampled px)
+  Lightness L* percentiles: p0.5=23  p5=53  p25=76  p50=79  p75=86  p95=89  p99.5=90
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 37
+  shadows      0.8% of frame  a*=  +3.2 (green-/magenta+)  b*=  +2.2 (blue-/yellow+)
+  midtones    20.4% of frame  a*=  +6.2 (green-/magenta+)  b*= +17.9 (blue-/yellow+)
+  highlights  78.8% of frame  a*=  +5.0 (green-/magenta+)  b*= +17.0 (blue-/yellow+)
+  chroma median 18.7  p90 22.7  coloured px 78%
+  hue share of coloured px: yellow 23%, green 77%
+  Observations:
+   - Darkest 0.5% only reaches L23: either faded blacks or nothing dark in frame. Re-measure a crop of something that should be black (hair, rock shadow). If it is faded: no in-camera setting lifts the black point (Shadows -2 only softens shadow contrast); it needs a curve in post.
+   - Highlights top out at L90: soft/muted whites. Highlights -1..-2 and/or DR200-400, possibly exposure -1/3.
+   - Tonal spread p5-p95 = 37 L units (low contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow + magenta/red (a*=+6.2, b*=+17.9). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Highlights lean warm/yellow (a*=+5.0, b*=+17.0). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 19, p90 23 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: upper black hair visual crop normalized crop (0.68, 0.03, 0.77, 0.1)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-profile.jpg (1080x1440, 9797 sampled px)
+  Lightness L* percentiles: p0.5=7  p5=8  p25=9  p50=59  p75=83  p95=87  p99.5=88
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 79
+  shadows     38.6% of frame  a*=  +1.1 (green-/magenta+)  b*=  +2.6 (blue-/yellow+)
+  midtones    18.5% of frame  a*= -18.5 (green-/magenta+)  b*=  +9.6 (blue-/yellow+)
+  highlights  42.9% of frame  a*= -17.1 (green-/magenta+)  b*= +21.3 (blue-/yellow+)
+  chroma median 27.6  p90 31.9  coloured px 56%
+  hue share of coloured px: green 91%, cyan 9%
+  Observations:
+   - Highlights top out at L88: soft/muted whites. Highlights -1..-2 and/or DR200-400, possibly exposure -1/3.
+   - Tonal spread p5-p95 = 79 L units (moderate contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow + green (a*=-18.5, b*=+9.6). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Highlights lean warm/yellow + green (a*=-17.1, b*=+21.3). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Split tone: highlights warmer than shadows. Characteristic of Classic Neg. / Nostalgic Neg. (amber highlights) or of warm light with cool skylight in shadows.
+   - Chroma median 28, p90 32 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+X2 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-turn.jpg (1080x1441, 120000 sampled px)
+  Lightness L* percentiles: p0.5=7  p5=17  p25=35  p50=54  p75=92  p95=96  p99.5=97
+  crushed 0.0%  clipped 1.1%  contrast(p95-p5) 79
+  shadows     13.2% of frame  a*=  -2.9 (green-/magenta+)  b*=  +2.9 (blue-/yellow+)
+  midtones    47.3% of frame  a*= -16.4 (green-/magenta+)  b*= +15.3 (blue-/yellow+)
+  highlights  39.6% of frame  a*=  -2.2 (green-/magenta+)  b*=  -1.5 (blue-/yellow+)
+  chroma median 19.2  p90 35.4  coloured px 38%
+  hue share of coloured px: yellow 1%, green 97%
+  Observations:
+   - Tonal spread p5-p95 = 79 L units (moderate contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow + green (a*=-16.4, b*=+15.3). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 19, p90 35 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: top panel only normalized crop (0, 0, 1, 0.325)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-turn.jpg (1080x1441, 69200 sampled px)
+  Lightness L* percentiles: p0.5=7  p5=16  p25=39  p50=56  p75=92  p95=96  p99.5=97
+  crushed 0.0%  clipped 2.5%  contrast(p95-p5) 80
+  shadows     13.8% of frame  a*=  -3.6 (green-/magenta+)  b*=  +2.4 (blue-/yellow+)
+  midtones    43.7% of frame  a*= -18.2 (green-/magenta+)  b*= +16.2 (blue-/yellow+)
+  highlights  42.5% of frame  a*=  -2.6 (green-/magenta+)  b*=  -1.6 (blue-/yellow+)
+  chroma median 18.7  p90 36.7  coloured px 36%
+  hue share of coloured px: yellow 2%, green 97%
+  Observations:
+   - Tonal spread p5-p95 = 80 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow + green (a*=-18.2, b*=+16.2). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 19, p90 37 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: white blouse visual crop normalized crop (0.55, 0.24, 0.6, 0.28)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-turn.jpg (1080x1441, 3132 sampled px)
+  Lightness L* percentiles: p0.5=74  p5=79  p25=84  p50=89  p75=91  p95=94  p99.5=96
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 15
+  shadows      0.0% of frame  a*=  +nan (green-/magenta+)  b*=  +nan (blue-/yellow+)
+  midtones     1.3% of frame  a*=  -6.2 (green-/magenta+)  b*=  +0.8 (blue-/yellow+)
+  highlights  98.7% of frame  a*=  -4.2 (green-/magenta+)  b*=  -1.3 (blue-/yellow+)
+  chroma median 5.0  p90 6.6  coloured px 0%
+  hue share of coloured px: 
+  Observations:
+   - Darkest 0.5% only reaches L74: either faded blacks or nothing dark in frame. Re-measure a crop of something that should be black (hair, rock shadow). If it is faded: no in-camera setting lifts the black point (Shadows -2 only softens shadow contrast); it needs a curve in post.
+   - Tonal spread p5-p95 = 15 L units (low contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Highlights lean green (a*=-4.2, b*=-1.3). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 5, p90 7 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+X3 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-hands.jpg (1080x1440, 120000 sampled px)
+  Lightness L* percentiles: p0.5=3  p5=8  p25=36  p50=57  p75=71  p95=93  p99.5=96
+  crushed 0.5%  clipped 0.2%  contrast(p95-p5) 86
+  shadows     14.3% of frame  a*=  -0.7 (green-/magenta+)  b*=  +2.6 (blue-/yellow+)
+  midtones    63.4% of frame  a*=  -0.6 (green-/magenta+)  b*=  +9.9 (blue-/yellow+)
+  highlights  22.3% of frame  a*=  -0.7 (green-/magenta+)  b*=  +7.0 (blue-/yellow+)
+  chroma median 13.6  p90 25.2  coloured px 34%
+  hue share of coloured px: orange/skin 2%, yellow 24%, green 59%, blue 15%
+  Observations:
+   - Tonal spread p5-p95 = 86 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow (a*=-0.6, b*=+9.9). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Highlights lean warm/yellow (a*=-0.7, b*=+7.0). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 14, p90 25 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: top-right warm-light panel; excludes central watermark normalized crop (0.51, 0, 1, 0.46)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-hands.jpg (1080x1440, 128000 sampled px)
+  Lightness L* percentiles: p0.5=23  p5=26  p25=40  p50=57  p75=71  p95=93  p99.5=94
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 68
+  shadows      3.2% of frame  a*=  -2.7 (green-/magenta+)  b*=  -4.4 (blue-/yellow+)
+  midtones    74.4% of frame  a*=  -0.2 (green-/magenta+)  b*=  +9.5 (blue-/yellow+)
+  highlights  22.5% of frame  a*=  -0.3 (green-/magenta+)  b*=  +5.3 (blue-/yellow+)
+  chroma median 10.7  p90 21.6  coloured px 28%
+  hue share of coloured px: orange/skin 1%, yellow 5%, green 93%
+  Observations:
+   - Darkest 0.5% only reaches L23: either faded blacks or nothing dark in frame. Re-measure a crop of something that should be black (hair, rock shadow). If it is faded: no in-camera setting lifts the black point (Shadows -2 only softens shadow contrast); it needs a curve in post.
+   - Tonal spread p5-p95 = 68 L units (moderate contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Shadows lean cool/blue (a*=-2.7, b*=-4.4). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Midtones lean warm/yellow (a*=-0.2, b*=+9.5). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Split tone: highlights warmer than shadows. Characteristic of Classic Neg. / Nostalgic Neg. (amber highlights) or of warm light with cool skylight in shadows.
+   - Chroma median 11, p90 22 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: bottom-right off-white blouse visual crop normalized crop (0.7, 0.9, 0.74, 0.94)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-mmm-hands.jpg (1080x1440, 2451 sampled px)
+  Lightness L* percentiles: p0.5=84  p5=86  p25=88  p50=89  p75=90  p95=91  p99.5=92
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 5
+  shadows      0.0% of frame  a*=  +nan (green-/magenta+)  b*=  +nan (blue-/yellow+)
+  midtones     0.0% of frame  a*=  +nan (green-/magenta+)  b*=  +nan (blue-/yellow+)
+  highlights 100.0% of frame  a*=  -1.2 (green-/magenta+)  b*=  +5.6 (blue-/yellow+)
+  chroma median 5.9  p90 10.4  coloured px 0%
+  hue share of coloured px: green 100%
+  Observations:
+   - Darkest 0.5% only reaches L84: either faded blacks or nothing dark in frame. Re-measure a crop of something that should be black (hair, rock shadow). If it is faded: no in-camera setting lifts the black point (Shadows -2 only softens shadow contrast); it needs a curve in post.
+   - Tonal spread p5-p95 = 5 L units (low contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Chroma median 6, p90 10 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+X4 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-may-petal.jpg (1080x1620, 106800 sampled px)
+  Lightness L* percentiles: p0.5=3  p5=7  p25=31  p50=61  p75=81  p95=94  p99.5=100
+  crushed 0.7%  clipped 2.9%  contrast(p95-p5) 87
+  shadows     20.7% of frame  a*=  -0.1 (green-/magenta+)  b*=  -0.3 (blue-/yellow+)
+  midtones    47.5% of frame  a*=  -1.2 (green-/magenta+)  b*=  +7.8 (blue-/yellow+)
+  highlights  31.8% of frame  a*=  +1.9 (green-/magenta+)  b*=  +3.5 (blue-/yellow+)
+  chroma median 6.8  p90 19.6  coloured px 18%
+  hue share of coloured px: orange/skin 2%, yellow 40%, green 58%
+  Observations:
+   - Tonal spread p5-p95 = 87 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow (a*=-1.2, b*=+7.8). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 7, p90 20 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+X5 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-may-bench.jpg (1080x1620, 106800 sampled px)
+  Lightness L* percentiles: p0.5=1  p5=4  p25=19  p50=39  p75=57  p95=86  p99.5=91
+  crushed 3.6%  clipped 0.0%  contrast(p95-p5) 82
+  shadows     31.3% of frame  a*=  -1.3 (green-/magenta+)  b*=  -0.5 (blue-/yellow+)
+  midtones    56.1% of frame  a*=  -2.3 (green-/magenta+)  b*=  +7.3 (blue-/yellow+)
+  highlights  12.6% of frame  a*=  +3.7 (green-/magenta+)  b*=  +4.6 (blue-/yellow+)
+  chroma median 8.9  p90 16.8  coloured px 13%
+  hue share of coloured px: red/skin 1%, orange/skin 5%, yellow 21%, green 73%
+  Observations:
+   - Deep, partly crushed blacks: Shadows +1..+2 or a contrasty sim (Classic Chrome, Classic Neg., Velvia).
+   - Tonal spread p5-p95 = 82 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow (a*=-2.3, b*=+7.3). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 9, p90 17 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+X6 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-may-shoulder.jpg (1080x1620, 106800 sampled px)
+  Lightness L* percentiles: p0.5=2  p5=5  p25=15  p50=44  p75=65  p95=76  p99.5=80
+  crushed 1.5%  clipped 0.0%  contrast(p95-p5) 71
+  shadows     33.1% of frame  a*=  -0.2 (green-/magenta+)  b*=  -1.0 (blue-/yellow+)
+  midtones    60.8% of frame  a*=  +0.6 (green-/magenta+)  b*=  +7.2 (blue-/yellow+)
+  highlights   6.1% of frame  a*=  +0.9 (green-/magenta+)  b*=  +3.4 (blue-/yellow+)
+  chroma median 8.2  p90 13.0  coloured px 3%
+  hue share of coloured px: red/skin 7%, orange/skin 3%, yellow 22%, green 69%
+  Observations:
+   - Highlights top out at L80: soft/muted whites. Highlights -1..-2 and/or DR200-400, possibly exposure -1/3.
+   - Tonal spread p5-p95 = 71 L units (moderate contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow (a*=+0.6, b*=+7.2). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 8, p90 13 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+X7 — full source file
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-may-wind.jpg (1080x1620, 106800 sampled px)
+  Lightness L* percentiles: p0.5=9  p5=14  p25=30  p50=58  p75=82  p95=95  p99.5=99
+  crushed 0.0%  clipped 2.6%  contrast(p95-p5) 81
+  shadows     19.3% of frame  a*=  +0.2 (green-/magenta+)  b*=  +0.2 (blue-/yellow+)
+  midtones    46.0% of frame  a*=  +1.1 (green-/magenta+)  b*=  +6.4 (blue-/yellow+)
+  highlights  34.7% of frame  a*=  +2.5 (green-/magenta+)  b*=  +2.3 (blue-/yellow+)
+  chroma median 4.5  p90 16.4  coloured px 12%
+  hue share of coloured px: red/skin 2%, orange/skin 11%, yellow 50%, green 37%
+  Observations:
+   - Tonal spread p5-p95 = 81 L units (high contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow (a*=+1.1, b*=+6.4). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 5, p90 16 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).
+
+Analysis window: cheek visual crop normalized crop (0.4, 0.35, 0.45, 0.39)
+
+== /workspace/clear-water-bay-shoot-guide/hong-kong-park/images/ref-xhs-may-wind.jpg (1080x1620, 3456 sampled px)
+  Lightness L* percentiles: p0.5=69  p5=71  p25=75  p50=77  p75=78  p95=80  p99.5=81
+  crushed 0.0%  clipped 0.0%  contrast(p95-p5) 9
+  shadows      0.0% of frame  a*=  +nan (green-/magenta+)  b*=  +nan (blue-/yellow+)
+  midtones    27.7% of frame  a*=  +7.8 (green-/magenta+)  b*= +12.8 (blue-/yellow+)
+  highlights  72.3% of frame  a*=  +7.1 (green-/magenta+)  b*= +11.1 (blue-/yellow+)
+  chroma median 13.7  p90 15.2  coloured px 19%
+  hue share of coloured px: yellow 100%
+  Observations:
+   - Darkest 0.5% only reaches L69: either faded blacks or nothing dark in frame. Re-measure a crop of something that should be black (hair, rock shadow). If it is faded: no in-camera setting lifts the black point (Shadows -2 only softens shadow contrast); it needs a curve in post.
+   - Highlights top out at L81: soft/muted whites. Highlights -1..-2 and/or DR200-400, possibly exposure -1/3.
+   - Tonal spread p5-p95 = 9 L units (low contrast for a typical outdoor scene; compare against your test shot in the same light, not in isolation).
+   - Midtones lean warm/yellow + magenta/red (a*=+7.8, b*=+12.8). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Highlights lean warm/yellow + magenta/red (a*=+7.1, b*=+11.1). Whole-frame means include the scene's own colours; for white balance, --crop a neutral (white dress, cloud, grey rock).
+   - Chroma median 14, p90 15 (roughly: <15 muted like Classic Chrome/Eterna, 15-25 natural like Astia/Provia/Pro Neg., >25 vivid like Velvia).

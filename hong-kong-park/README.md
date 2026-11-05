@@ -8,11 +8,12 @@ Live: https://jessepcc.github.io/clear-water-bay-shoot-guide/hong-kong-park/
 
 從repository root運行`python3 -m http.server 8000 --bind 127.0.0.1`，開http://127.0.0.1:8000/hong-kong-park/。
 
-- [指南](index.html)：8張真照參考、6個新水框Pose（AI示意）、原有8個方案、2套完整富士配方、反光板與閃燈判斷。
+- [指南](index.html)：你提供的2篇小紅書精選7組原圖，逐圖附站位、姿勢、23mm／75mm起點及廣東話口令；另有8張真照參考、6個水框Pose（AI示意）、原有8個方案、2套完整富士配方、反光板與閃燈判斷。
 - [研究紀錄](research-notes.md)：IG/XHS來源與讀取限制、未核實熱度、排除的機位。
 - [影像來源](image-sources.json)：授權、日期、雜湊、生成prompt；真照與AI分列。
 - [量測](reference-measurements.txt)：真實預覽及概念色度檢查；AI不是調色目標。
+- [指定小紅書量測](xhs-reference-measurements.txt)：7組原始預覽與分格／分析窗；不改動展示圖片。
 
-社媒參考全部標明核實程度，沒有可驗證的單帖讚藏數；不宣稱為熱門榜。配方均為未實機測試的estimate。
+社媒參考標明來源，不宣稱熱門榜；新提供第一篇的分享頁資料顯示92讚／8收藏（2026-11-05查核），第二篇未顯示數字，詳見研究紀錄。新參考只作姿勢／光線方向，不把未核實地點當香港公園實景。配方與拍攝參數均為未實機測試的estimate。
 
 離線export：`python3 scripts/export-preview.py hong-kong-park --output /tmp/hong-kong-park-preview.html`。
