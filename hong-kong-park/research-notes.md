@@ -218,3 +218,4 @@ SHA256：070d1ed3813e0a7de2d27e659ff8a7b8f9865b40f997ab34adfd60323c9b8610
 - 剔選紀錄只存在瀏覽器localStorage（hkp-shots-1108），不上傳。
 - C1由ASTIA改為PRO Neg. Hi（使用者反映ASTIA膚色不理想）。X-T5官方選單描述PRO Neg. Hi為「Ideal for portrait with slightly enhanced contrast」，與C2的PRO Neg. Std同屬人像膚色取向；因PRO Neg飽和度較低，C1 Color由−1改為0，其餘參數不變，仍屬未實測estimate。
 - 現場速查及亞洲協會段刪去非現場必需的備註（換鏡步驟、天氣、私人拍攝規定、展覽時段、交通開放卡），相關查核紀錄仍保留在本筆記上文。
+- 頁面再刪去配方的estimate標籤及各章來源／方法備註，以便現場查閱；配方仍全屬未實測起點（見上文），照片作者及授權標示保留在各圖及「出處與影像紀錄」。
